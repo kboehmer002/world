@@ -1,0 +1,32 @@
+{
+	icon: "draconicevolution:crafting_injector",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Make some Basic Fusion Crafting Injectors",
+	text: [
+		"Fusion Crafting is done by placing several Fusion Crafting Injectors around and facing the Fusion Crafting Core. Provide them with power and the correct items, and then place the main ingredient into the Fusion Crafting Core and activate it to start.",
+		"Some recipes require different tiers of Fusion Crafting Injectors. These are the lowest and least useful."
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "896ba11b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}]
+	},
+	{
+		uid: "2436c82a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}],
+	rewards: [{
+		uid: "7058af50",
+		type: "random",
+		table: 0
+	}]
+}

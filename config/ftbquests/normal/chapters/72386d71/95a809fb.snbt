@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "Infinity Catalyst",
+	text: [
+		"One is all and all is one"
+	],
+	dependencies: [
+		"d64811c8",
+		"3f1b1d7c",
+		"bff4b533",
+		"df9d9bb4",
+		"b82c07c5",
+		"dd68dca2",
+		"aa10c89c",
+		"492ed21e",
+		"6bc9a03b",
+		"a1d7bb43",
+		"6a643572",
+		"9a23d594",
+		"ab932204"
+	],
+	tasks: [{
+		uid: "b4dbef64",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "1a2035e9",
+		type: "random",
+		table: 0
+	}]
+}

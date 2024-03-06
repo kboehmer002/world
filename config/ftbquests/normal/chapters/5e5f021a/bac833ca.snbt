@@ -1,0 +1,38 @@
+{
+	title: "Classic",
+	icon: "exnihilocreatio:block_sieve",
+	x: -7.0d,
+	y: -21.0d,
+	description: "Make a Sieve",
+	text: [
+		"The Sieve uses a Mesh to process blocks like Gravel, Sand, and Dust into ores and other materials.",
+		"Higher tier Meshes can yields more materials and have a higher chance overall to collect them.",
+		"You can place multiple Sieves next to each other and they will all be used at the same time."
+	],
+	dependencies: [
+		"d8fc8a49"
+	],
+	tasks: [{
+		uid: "ef88015f",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cff6b143",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9ae7bf9",
+		type: "random",
+		table: 0
+	}]
+}

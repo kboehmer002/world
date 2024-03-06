@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Iron",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "iron",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
+	y: -1.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"cc44a430",
+		"9d77cbad"
+	],
+	tasks: [{
+		uid: "fc324742",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "iron"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6715d3fa",
+		type: "random",
+		table: 0
+	}]
+}

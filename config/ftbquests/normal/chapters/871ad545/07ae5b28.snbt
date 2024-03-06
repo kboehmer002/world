@@ -1,0 +1,25 @@
+{
+	title: "Items on Demand",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Make a Transmutation Table",
+	text: [
+		"The Transmutation Table allows you to convert any item to EMC, learning it in the process, and then use that EMC to spawn in any item you have learned.",
+		"The EMC here is stored per player, not per Transmutation Table."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "d36ea24c",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "887f585d",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -7.0d,
+	y: 7.0d,
+	description: "Helmet",
+	text: [
+		"When wearing this you no longer need to eat."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "ff63a615",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}]
+	}],
+	rewards: [{
+		uid: "b81d2936",
+		type: "random",
+		table: 0
+	}]
+}

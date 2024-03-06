@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"Tier 3 core"
+	],
+	dependencies: [
+		"96256301"
+	],
+	tasks: [{
+		uid: "969681ac",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "7182fe13",
+		type: "random",
+		table: 0
+	}]
+}

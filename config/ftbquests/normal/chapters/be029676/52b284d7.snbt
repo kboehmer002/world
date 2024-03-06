@@ -1,0 +1,24 @@
+{
+	x: 13.0d,
+	y: -6.0d,
+	description: "Upgrade Template",
+	text: [
+		"Drawer upgrades require the Upgrade Template.",
+		"You do not need to have a lower tier to use a higher tier upgrade."
+	],
+	dependencies: [
+		"4ef5f8c5"
+	],
+	tasks: [{
+		uid: "4a335fc9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}]
+	}],
+	rewards: [{
+		uid: "b3b93db2",
+		type: "random",
+		table: 0
+	}]
+}

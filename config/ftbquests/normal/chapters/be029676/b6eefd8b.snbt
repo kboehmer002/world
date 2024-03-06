@@ -1,0 +1,25 @@
+{
+	title: "Seed Farmer",
+	x: -3.0d,
+	y: -4.0d,
+	description: "Make a Crystal Growth Chamber",
+	text: [
+		"The Crystal Growth Chamber accelerates the growth of AE2 seeds in its inventory, and has slots for Upgrade Cards to increase the speed even more."
+	],
+	dependencies: [
+		"437d71bf"
+	],
+	tasks: [{
+		uid: "dd83e20a",
+		type: "item",
+		items: [{
+			item: "ae2stuff:grower"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1dbc2598",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "2¹²",
+	x: -1.0d,
+	y: -2.0d,
+	description: "Make a 4k Storage Cell",
+	text: [
+		"Lower Tier Storage Cell, which can contain 4,096 bytes of storage with a maximum of 63 unique items.",
+		""
+	],
+	dependencies: [
+		"f81ea040"
+	],
+	tasks: [{
+		uid: "84df7eca",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9e26e46",
+		type: "random",
+		table: 0
+	}]
+}

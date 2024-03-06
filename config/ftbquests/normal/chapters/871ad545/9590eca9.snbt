@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	description: "Make a Colossal Star Omega",
+	dependencies: [
+		"5f7dea2a"
+	],
+	tasks: [{
+		uid: "1ceda5b8",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_omega",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6cf9f4c",
+		type: "random",
+		table: 0
+	}]
+}

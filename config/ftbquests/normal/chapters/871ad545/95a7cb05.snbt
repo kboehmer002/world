@@ -1,0 +1,20 @@
+{
+	title: "Hypermatter",
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"4b41610e"
+	],
+	tasks: [{
+		uid: "4c124261",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0013f9c3",
+		type: "random",
+		table: 0
+	}]
+}

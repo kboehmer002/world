@@ -1,0 +1,25 @@
+{
+	title: "Getting Hot in Here",
+	x: -5.0d,
+	y: -19.0d,
+	description: "Make a Crucible",
+	text: [
+		"The Crucible is used to turn Stone and similar materials into Lava. It requires a heat source underneath such as a Torch or Lava.",
+		"Better heat sources make Lava faster."
+	],
+	dependencies: [
+		"c37a6b2b"
+	],
+	tasks: [{
+		uid: "86f33dfb",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3ceb9f3e",
+		type: "random",
+		table: 0
+	}]
+}

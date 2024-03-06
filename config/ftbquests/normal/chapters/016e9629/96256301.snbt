@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Tier 2 core"
+	],
+	dependencies: [
+		"c3bb911c"
+	],
+	tasks: [{
+		uid: "2c04a182",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "675358ba",
+		type: "random",
+		table: 0
+	}]
+}

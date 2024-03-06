@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Electrum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "electrum",
+			Amount: 1000
+		}
+	},
+	x: 2.0d,
+	y: 5.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"ae5c0458",
+		"ca07cb40"
+	],
+	tasks: [{
+		uid: "98bfe0da",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "electrum"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "52fb73f0",
+		type: "random",
+		table: 0
+	}]
+}

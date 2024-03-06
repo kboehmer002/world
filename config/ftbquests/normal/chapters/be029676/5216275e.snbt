@@ -1,0 +1,27 @@
+{
+	title: "/barrel/null",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Craft a Collect Pickups upgrade",
+	text: [
+		"When you have a Barrel with the Collect Pickups upgrade in your inventory, items that you pick up off the ground will go into the Barrel if possible."
+	],
+	dependencies: [
+		"2a7a0f0b"
+	],
+	tasks: [{
+		uid: "ef2c385a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_pickup"
+		}]
+	}],
+	rewards: [{
+		uid: "78d30d96",
+		type: "random",
+		table: 0
+	}]
+}

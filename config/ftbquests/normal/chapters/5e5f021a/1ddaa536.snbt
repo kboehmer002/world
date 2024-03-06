@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -17.0d,
+	description: "Craft a Cobblestone Generator",
+	text: [
+		"The Cobblestone Generator makes 1 Cobblestone every 2 seconds."
+	],
+	dependencies: [
+		"c28d6190"
+	],
+	tasks: [{
+		uid: "7a462b1e",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "a0cbbc09",
+		type: "random",
+		table: 0
+	}]
+}

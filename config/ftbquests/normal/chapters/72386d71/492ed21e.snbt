@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	description: "Nether Quartz Singularity",
+	text: [
+		"Compress 11800 Blocks of Quartz into an Nether Quartz Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "94831225",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "f9fe12c7",
+		type: "random",
+		table: 0
+	}]
+}

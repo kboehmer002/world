@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: 6.0d,
+	description: "Craft an Infinite Capacity upgrade",
+	text: [
+		"The Infinite Upgrade increases the capacity to be nearly infinite."
+	],
+	dependencies: [
+		"37302b75"
+	],
+	tasks: [{
+		uid: "cf144c19",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_star_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "96e77801",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Wholesale",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Buy a Chicken",
+	text: [
+		"The Market allows you to trade in Emeralds for most Seeds, Saplings, and Animal eggs."
+	],
+	tasks: [{
+		uid: "bdd115da",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f68ca24",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Magical Garnish",
+	icon: "thaumcraft:salis_mundus",
+	x: 0.0d,
+	y: -1.0d,
+	description: "Make some Salis Mundus",
+	text: [
+		"Get some magic Crystals from sieving Gravel, and place them on the ground. Mine them back up to get the Vis Crystals then take a nap to ruminate on your discoveries."
+	],
+	tasks: [{
+		uid: "c379121f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6796ab55",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Pet Astronaut",
+	x: 0.0d,
+	y: -20.0d,
+	description: "Craft a Floating Doll",
+	text: [
+		"The Floating Doll spawns a Shulker when used on a Barrel full of Witchwater."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "a6a75118",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c18509af",
+		type: "random",
+		table: 0
+	}]
+}

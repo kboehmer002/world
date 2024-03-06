@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	description: "Make a Klein Star Zwei",
+	text: [
+		"Each Klein Star tier holds more EMC than the last."
+	],
+	dependencies: [
+		"82f57b32"
+	],
+	tasks: [{
+		uid: "c443b06d",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6687c183",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	icon: {
+		id: "draconicevolution:draconic_helm",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"One of the best armor in the game."
+	],
+	dependencies: [
+		"1d989a42"
+	],
+	tasks: [{
+		uid: "42b4c558",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab972b62",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "245e6802",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f2b0cc2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a82a5d6b",
+		type: "random",
+		table: 0
+	}]
+}

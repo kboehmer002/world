@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	description: "Tin Singularity",
+	text: [
+		"Compress 12600 Blocks of Tin into an Tin Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "5a065683",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2aed5339",
+		type: "random",
+		table: 0
+	}]
+}

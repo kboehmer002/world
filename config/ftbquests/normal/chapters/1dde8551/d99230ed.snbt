@@ -1,0 +1,40 @@
+{
+	title: "Snare",
+	icon: "harvestcraft:grainbaititem",
+	x: 0.0d,
+	y: -2.0d,
+	description: "Bait a Chicken",
+	text: [
+		"The Ground Trap works by generating mob drops depending on the type of Bait used while it is touching at least 4 blocks of Grass."
+	],
+	tasks: [{
+		uid: "c37e8133",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "96c3f7c5",
+		type: "item",
+		title: "Grain, Fruit, or Veggie Bait",
+		items: [{
+			item: "harvestcraft:grainbaititem"
+		},
+		{
+			item: "harvestcraft:fruitbaititem"
+		},
+		{
+			item: "harvestcraft:veggiebaititem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c373c07",
+		type: "random",
+		table: 0
+	}]
+}

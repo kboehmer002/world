@@ -1,0 +1,26 @@
+{
+	title: "16,384 Buckets",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Make a 64K Fluid Storage Cell",
+	text: [
+		"Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
+	],
+	dependencies: [
+		"10363b66"
+	],
+	tasks: [{
+		uid: "3795ecca",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64fc4a4a",
+		type: "random",
+		table: 0
+	}]
+}

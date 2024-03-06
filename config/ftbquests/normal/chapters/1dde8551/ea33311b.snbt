@@ -1,0 +1,25 @@
+{
+	title: "Fun House",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Breed a Chicken",
+	text: [
+		"The Chicken Breeder will attempt to breed any two Chicken placed into it. It uses 2 Seeds per succesful breeding.",
+		"Having multiple of a specific chicken in the slot increases the speed."
+	],
+	dependencies: [
+		"b0a6af08"
+	],
+	tasks: [{
+		uid: "c55f2de0",
+		type: "item",
+		items: [{
+			item: "roost:breeder"
+		}]
+	}],
+	rewards: [{
+		uid: "ec1af578",
+		type: "random",
+		table: 0
+	}]
+}

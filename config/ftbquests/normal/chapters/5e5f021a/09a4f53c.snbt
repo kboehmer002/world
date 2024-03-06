@@ -1,0 +1,27 @@
+{
+	title: "Crafting Time",
+	icon: "stoneblockutilities:stoneworkbench",
+	x: -17.0d,
+	y: -21.0d,
+	description: "Make a Stone Crafting Table",
+	text: [
+		"The Stone Crafting Table works similarly to a regular one, but items will stay inside if left inside."
+	],
+	dependencies: [
+		"246266fa"
+	],
+	tasks: [{
+		uid: "308810e9",
+		type: "item",
+		items: [{
+			item: "stoneblockutilities:stoneworkbench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d30bcb19",
+		type: "random",
+		table: 0
+	}]
+}

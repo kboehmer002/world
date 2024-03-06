@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -4.0d,
+	description: "Make a Crafting Co-Processing Unit",
+	text: [
+		"Component of the Crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting.",
+		"This can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. "
+	],
+	dependencies: [
+		"1e0b30ec"
+	],
+	tasks: [{
+		uid: "8c1b5f66",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "6fce319f",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Shift-right-click to copy your knowledge and give it to another player and if they right-click, they get your knowledge and destroy the book."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "5fb1d279",
+		type: "item",
+		items: [{
+			item: "projectex:knowledge_sharing_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "323048f5",
+		type: "random",
+		table: 0
+	}]
+}

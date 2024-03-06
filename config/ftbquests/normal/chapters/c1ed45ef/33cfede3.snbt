@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Vivid Alloy",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "vivid_alloy",
+			Amount: 1000
+		}
+	},
+	x: 4.0d,
+	y: 10.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"74cf823e",
+		"ad45b9c4"
+	],
+	tasks: [{
+		uid: "40eeeec3",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "vivid_alloy"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "8b3b3fce",
+		type: "random",
+		table: 0
+	}]
+}

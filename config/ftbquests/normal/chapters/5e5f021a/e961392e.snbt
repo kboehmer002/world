@@ -1,0 +1,24 @@
+{
+	title: "0K",
+	x: 1.0d,
+	y: -20.0d,
+	description: "Craft a Freezing Doll",
+	text: [
+		"The Freezing Doll spawns a Blizz when used on a Barrel full of Blazing Pyrotheum."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "eeb032cc",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "5463db87",
+		type: "random",
+		table: 0
+	}]
+}

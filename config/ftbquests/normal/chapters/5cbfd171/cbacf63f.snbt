@@ -1,0 +1,25 @@
+{
+	title: "Wireless",
+	x: 6.0d,
+	y: -6.0d,
+	description: "Make a Filling Essentia Transfuser",
+	text: [
+		"The Filling Essentia Transfuser will fill up nearby Jars with the Essentia in the Arcane Alembic it is placed on.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"14cec03c"
+	],
+	tasks: [{
+		uid: "d32e2fee",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	}],
+	rewards: [{
+		uid: "1a9c2d7d",
+		type: "random",
+		table: 0
+	}]
+}

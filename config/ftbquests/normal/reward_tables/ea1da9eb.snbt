@@ -1,0 +1,362 @@
+{
+	title: "Uncommon",
+	loot_size: 2,
+	rewards: [{
+		item: "minecraft:end_stone",
+		count: 4
+	},
+	{
+		item: "minecraft:prismarine",
+		count: 8
+	},
+	{
+		item: "minecraft:soul_sand",
+		count: 6
+	},
+	{
+		item: "minecraft:obsidian",
+		count: 5
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 4
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 4
+	},
+	{
+		item: "minecraft:redstone",
+		count: 6
+	},
+	{
+		item: "minecraft:glowstone_dust",
+		count: 4
+	},
+	{
+		item: "minecraft:brick",
+		count: 8
+	},
+	{
+		item: "minecraft:quartz",
+		count: 8
+	},
+	{
+		item: "minecraft:string",
+		count: 4
+	},
+	{
+		item: "minecraft:feather",
+		count: 4
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 3
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 3
+	},
+	{
+		item: "minecraft:iron_horse_armor"
+	},
+	{
+		item: "minecraft:bucket"
+	},
+	{
+		item: "minecraft:water_bucket"
+	},
+	{
+		item: "minecraft:nether_wart",
+		count: 4
+	},
+	{
+		item: "extrautils2:ingredients",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 5
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 5",
+		count: 5
+	},
+	{
+		item: "botania:fertilizer",
+		count: 4
+	},
+	{
+		item: "chancecubes:chance_cube",
+		count: 4
+	},
+	{
+		item: "cyclicmagic:tool_harvest_crops"
+	},
+	{
+		item: {
+			id: "botania:lexicon",
+			tag: {}
+		}
+	},
+	{
+		item: "chancecubes:chance_icosahedron",
+		count: 2
+	},
+	{
+		item: "tconstruct:slime_boots"
+	},
+	{
+		item: "tconstruct:slime_boots 1 1"
+	},
+	{
+		item: "tconstruct:slime_boots 1 2"
+	},
+	{
+		item: "tconstruct:slime_boots 1 4"
+	},
+	{
+		item: {
+			id: "chiselsandbits:bit_bag",
+			tag: {
+				contents: [I;
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			}
+		}
+	},
+	{
+		item: {
+			id: "chesttransporter:chesttransporter_gold",
+			tag: {}
+		}
+	},
+	{
+		item: "fluidcows:stall"
+	},
+	{
+		item: "thermalfoundation:wrench"
+	},
+	{
+		item: "enderio:item_material 1 5",
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_iron_tier"
+		},
+		count: 2
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1",
+		count: 4
+	},
+	{
+		item: "mysticalagriculture:crafting",
+		count: 5
+	},
+	{
+		item: "betterbuilderswands:wandiron"
+	},
+	{
+		item: "extrautils2:enderlilly",
+		count: 3
+	},
+	{
+		item: {
+			id: "fluidcows:cow_displayer",
+			tag: {
+				fluid: "milk"
+			}
+		}
+	},
+	{
+		item: {
+			id: "fluidcows:cow_displayer",
+			tag: {
+				fluid: "water"
+			}
+		}
+	},
+	{
+		item: "minecraft:iron_helmet"
+	},
+	{
+		item: "minecraft:iron_chestplate"
+	},
+	{
+		item: "minecraft:iron_leggings"
+	},
+	{
+		item: "minecraft:iron_boots"
+	},
+	{
+		item: "excompressum:bait 1 4"
+	},
+	{
+		item: "tp:emerald_spear"
+	},
+	{
+		item: "tp:flesh_block"
+	},
+	{
+		item: "excompressum:bait 1 9"
+	},
+	{
+		item: "excompressum:bait 1 8"
+	},
+	{
+		item: "excompressum:bait 1 10"
+	},
+	{
+		item: "excompressum:bait 1 11"
+	},
+	{
+		item: "excompressum:bait 1 12"
+	},
+	{
+		item: "excompressum:bait 1 5"
+	}],
+	loot_crate: {
+		string_id: "uncommon",
+		item_name: "Uncommon Loot Crate",
+		color: 3648105,
+		drops: {
+			boss: 0,
+			passive: 150,
+			monster: 300
+		}
+	}
+}

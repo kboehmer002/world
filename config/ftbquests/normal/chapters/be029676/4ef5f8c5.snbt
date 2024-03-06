@@ -1,0 +1,28 @@
+{
+	x: 11.0d,
+	y: -6.0d,
+	description: "Storage Drawer",
+	text: [
+		"A good, cheap storage option"
+	],
+	dependencies: [
+		"0036066c"
+	],
+	tasks: [{
+		uid: "ce0e6ef0",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e933962f",
+		type: "random",
+		table: 0
+	}]
+}

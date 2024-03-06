@@ -1,0 +1,33 @@
+{
+	title: "The Mighty Ender Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "chickens:enderchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -13.0d,
+	y: -25.0d,
+	description: "Kill the Ender Chicken",
+	text: [
+		"The Ender Chicken is spawned by dropping a Chicken Egg on a ring of Obsidian with a Diamond Block in the middle in the End.",
+		"Use the Chicken Stick to destroy the Chicken's shield."
+	],
+	dependencies: [
+		"649aef50"
+	],
+	tasks: [{
+		uid: "f47ac73d",
+		type: "kill",
+		entity: "mightyenderchicken:ent_enderchicken",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "60d810bb",
+		type: "random",
+		table: 0
+	}]
+}

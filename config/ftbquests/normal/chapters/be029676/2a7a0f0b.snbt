@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: 6.0d,
+	description: "Craft a Blank Barrel Upgrade",
+	text: [
+		"The Blank Barrel Upgrade is required to make Barrels and Barrel Upgrades."
+	],
+	dependencies: [
+		"0036066c"
+	],
+	tasks: [{
+		uid: "c5b8a9e3",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_blank"
+		}]
+	}],
+	rewards: [{
+		uid: "44e3b0c8",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Hellish",
+	x: -3.0d,
+	y: -17.0d,
+	description: "Make some Netherrack",
+	text: [
+		"Make some Netherrack by using Redstone on a Barrel full of Lava.",
+		"This reward is repeatable in case you lose it, as its the only way to make Hell biome."
+	],
+	can_repeat: true,
+	dependencies: [
+		"a30e5a18"
+	],
+	tasks: [{
+		uid: "9b688c57",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "30a75888",
+		type: "item",
+		item: {
+			id: "extrautils2:biomemarker",
+			tag: {
+				Biome: "minecraft:hell"
+			}
+		}
+	}]
+}

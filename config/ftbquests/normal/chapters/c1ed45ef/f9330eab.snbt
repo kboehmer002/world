@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Pulsating Iron",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "pulsating_iron",
+			Amount: 1000
+		}
+	},
+	x: 3.0d,
+	y: 6.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"74cf823e"
+	],
+	tasks: [{
+		uid: "db83b763",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "pulsating_iron"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "69172e0e",
+		type: "random",
+		table: 0
+	}]
+}

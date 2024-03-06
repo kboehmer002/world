@@ -1,0 +1,23 @@
+{
+	x: 13.0d,
+	y: -4.0d,
+	description: "Upgrade I",
+	text: [
+		"Increases storage by 2 times base value"
+	],
+	dependencies: [
+		"52b284d7"
+	],
+	tasks: [{
+		uid: "e98ae678",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "dd85b990",
+		type: "random",
+		table: 0
+	}]
+}

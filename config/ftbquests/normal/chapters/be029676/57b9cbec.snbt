@@ -1,0 +1,24 @@
+{
+	title: "Change the Channel",
+	x: 3.0d,
+	y: -6.0d,
+	description: "Make an ME Controller",
+	text: [
+		"The ME Controller is the routing hub of an ME network. Each face of the ME Controller multiblock will allow the network to use up to 32 more channels."
+	],
+	dependencies: [
+		"7e0e270c"
+	],
+	tasks: [{
+		uid: "88cd7137",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "83865300",
+		type: "random",
+		table: 0
+	}]
+}

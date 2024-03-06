@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Signalum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "signalum",
+			Amount: 1000
+		}
+	},
+	x: -3.0d,
+	y: 9.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"51a15d03",
+		"b9d0d7fa"
+	],
+	tasks: [{
+		uid: "789b6b58",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "signalum"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "cdb7ffdc",
+		type: "random",
+		table: 0
+	}]
+}

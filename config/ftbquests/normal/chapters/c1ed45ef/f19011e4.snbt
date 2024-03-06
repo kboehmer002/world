@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Blue Slime",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "blueslime",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: -5.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"590f6aa3",
+		"41c9c167"
+	],
+	tasks: [{
+		uid: "a88d2a3f",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "blueslime"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "a0a2ecde",
+		type: "random",
+		table: 0
+	}]
+}

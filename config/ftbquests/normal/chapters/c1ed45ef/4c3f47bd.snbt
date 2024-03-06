@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Knightslime",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "knightslime",
+			Amount: 1000
+		}
+	},
+	x: 9.0d,
+	y: 11.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"51a15d03",
+		"973bce81"
+	],
+	tasks: [{
+		uid: "0a29d9b1",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "knightslime"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c022a6aa",
+		type: "random",
+		table: 0
+	}]
+}

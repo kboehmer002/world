@@ -1,0 +1,27 @@
+{
+	title: "Peak Efficiency",
+	x: -7.0d,
+	y: -23.0d,
+	description: "Make a Heavy Sieve",
+	text: [
+		"The Heavy Sieve works like a normal Sieve, but processes Compressed blocks to save time.",
+		"You can only use one Heavy Sieve at a time."
+	],
+	dependencies: [
+		"bac833ca"
+	],
+	tasks: [{
+		uid: "17b8b540",
+		type: "item",
+		items: [{
+			item: "excompressum:heavy_sieve"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8233e3a6",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Just Like Mom Used to Make",
+	x: 6.0d,
+	y: -5.0d,
+	description: "Make a Bucket of Liquid Death",
+	text: [
+		"Liquid Death harms anything it touches. Killed mobs will drop Vis Crystals in addition to their regular drops.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"14cec03c"
+	],
+	tasks: [{
+		uid: "a63e81ff",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "61cb590a",
+		type: "random",
+		table: 0
+	}]
+}

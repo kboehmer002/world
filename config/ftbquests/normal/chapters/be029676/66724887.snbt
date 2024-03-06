@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	description: "Engineering Press",
+	text: [
+		"Used to make Printed Engineering Circuits."
+	],
+	dependencies: [
+		"204953f5"
+	],
+	tasks: [{
+		uid: "2f49d25b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "99cc9445",
+		type: "random",
+		table: 0
+	}]
+}

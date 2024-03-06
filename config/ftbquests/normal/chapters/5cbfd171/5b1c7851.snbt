@@ -1,0 +1,33 @@
+{
+	title: "Magician's Workspace",
+	icon: "thaumcraft:arcane_workbench",
+	x: 0.0d,
+	y: -5.0d,
+	description: "Make the Arcane Workbench and Research Table",
+	text: [
+		"Use some Salis Mundis on a Crafting Table to get the Arcane Workbench, which crafts with Vis Crystals and the Vis in the area.",
+		"Use Scribing Tools on a Table to get the Research Table, which is required to make discoveries."
+	],
+	dependencies: [
+		"441bdeda"
+	],
+	tasks: [{
+		uid: "2ead2d8e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "1ba394eb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:research_table"
+		}]
+	}],
+	rewards: [{
+		uid: "83924f09",
+		type: "random",
+		table: 0
+	}]
+}

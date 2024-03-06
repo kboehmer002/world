@@ -1,0 +1,25 @@
+{
+	title: "Advanced Auromancy",
+	x: 0.0d,
+	y: -11.0d,
+	description: "Make a Workbench Charger",
+	text: [
+		"The Workbench Charger allows you to use the Vis from a 9 chunk area instead of just the chunk the Workbench is in.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"a7e19aef"
+	],
+	tasks: [{
+		uid: "562fc195",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "8a8c774f",
+		type: "random",
+		table: 0
+	}]
+}

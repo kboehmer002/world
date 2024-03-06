@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -16.0d,
+	description: "Craft a Cobblestone Generator Tier 5",
+	text: [
+		"The Cobblestone Generator Tier 5 makes 20 Cobblestone every second."
+	],
+	dependencies: [
+		"fe5bee21"
+	],
+	tasks: [{
+		uid: "d30aead5",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "20d332da",
+		type: "random",
+		table: 0
+	}]
+}

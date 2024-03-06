@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	description: "1k Crafting Storage",
+	text: [
+		"Component of the Crafting CPU which provides 1024 bytes of storage for crafting"
+	],
+	dependencies: [
+		"1e0b30ec"
+	],
+	tasks: [{
+		uid: "974f8ce1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "f7e0283b",
+		type: "random",
+		table: 0
+	}]
+}

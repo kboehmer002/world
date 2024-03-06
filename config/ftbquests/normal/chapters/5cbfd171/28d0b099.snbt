@@ -1,0 +1,25 @@
+{
+	title: "Indentured Servant",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Make an Advanced Control Seal: Store",
+	text: [
+		"The Control Seal: Store will make Golems insert whatever item they are holding into the inventory it is placed on.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22c3a3d7"
+	],
+	tasks: [{
+		uid: "eed2b037",
+		type: "item",
+		items: [{
+			item: "thaumcraft:seal 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "83b156d7",
+		type: "random",
+		table: 0
+	}]
+}

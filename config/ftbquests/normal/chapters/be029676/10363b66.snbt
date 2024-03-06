@@ -1,0 +1,26 @@
+{
+	title: "4,096 Buckets",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Make a 16K Fluid Storage Cell",
+	text: [
+		"Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
+	],
+	dependencies: [
+		"4088e609"
+	],
+	tasks: [{
+		uid: "ebe1ec19",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f9b7b79",
+		type: "random",
+		table: 0
+	}]
+}

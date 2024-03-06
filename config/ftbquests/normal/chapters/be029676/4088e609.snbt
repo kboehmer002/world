@@ -1,0 +1,26 @@
+{
+	title: "1,024 Buckets",
+	x: 1.0d,
+	y: -2.0d,
+	description: "Make a 4K Fluid Storage Cell",
+	text: [
+		"Lower Tier Storage Cell, which can contain 4,096 bytes of storage."
+	],
+	dependencies: [
+		"4b47810e"
+	],
+	tasks: [{
+		uid: "8e3ffb0f",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77aedb88",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	description: "Make a Klein Star Vier",
+	dependencies: [
+		"0f0e2eb3"
+	],
+	tasks: [{
+		uid: "6b08029d",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d739f97",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	description: "Craft a Gold Tier upgrade",
+	text: [
+		"The Gold Tier increases the storage capacity to 1024 stacks."
+	],
+	dependencies: [
+		"371f84e2"
+	],
+	tasks: [{
+		uid: "a71c2965",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_gold_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "8635f646",
+		type: "random",
+		table: 0
+	}]
+}

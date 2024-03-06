@@ -1,0 +1,53 @@
+{
+	icon: {
+		id: "draconicevolution:wyvern_helm",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Tough armor that probably needs an upgrade."
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "118bb169",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9ab2a812",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8430be7d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bce85b2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39a5e5aa",
+		type: "random",
+		table: 0
+	}]
+}

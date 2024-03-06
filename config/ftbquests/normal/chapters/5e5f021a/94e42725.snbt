@@ -1,0 +1,26 @@
+{
+	title: "Like Normal, but Stone!",
+	x: -19.0d,
+	y: -19.0d,
+	description: "Craft a Cobblestone chest",
+	text: [
+		"It's like a regular chest, but made of Cobblestone!"
+	],
+	dependencies: [
+		"246266fa"
+	],
+	tasks: [{
+		uid: "e3788a19",
+		type: "item",
+		items: [{
+			item: "stonechest:chest_cobblestone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80698740",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Essence of Knowledge",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "experience",
+			Amount: 1000
+		}
+	},
+	x: 5.0d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"74cf823e",
+		"ca07cb40"
+	],
+	tasks: [{
+		uid: "3418643f",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "experience"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "cc96a1d5",
+		type: "random",
+		table: 0
+	}]
+}

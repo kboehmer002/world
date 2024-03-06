@@ -1,0 +1,27 @@
+{
+	title: "Items On the Go",
+	x: 3.0d,
+	y: -2.0d,
+	description: "Make a Wireless Terminal",
+	text: [
+		"After being linked up in the ME Security Terminal, the Wireless Terminal grants portable access to the ME Network."
+	],
+	dependencies: [
+		"7f82f2ae"
+	],
+	tasks: [{
+		uid: "d257d6f1",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d911ac6",
+		type: "random",
+		table: 0
+	}]
+}

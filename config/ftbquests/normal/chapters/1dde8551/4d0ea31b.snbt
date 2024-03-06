@@ -1,0 +1,24 @@
+{
+	title: "Egg Bed",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Hatch a Chicken",
+	text: [
+		"Some eggs have only a percent chance to spawn a Chicken when thrown. You can instead place them in the Egg Nest and it will have a 100% chance of growing over time."
+	],
+	dependencies: [
+		"b0a6af08"
+	],
+	tasks: [{
+		uid: "66397b65",
+		type: "item",
+		items: [{
+			item: "hatchery:nest"
+		}]
+	}],
+	rewards: [{
+		uid: "238df425",
+		type: "random",
+		table: 0
+	}]
+}

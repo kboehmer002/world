@@ -1,0 +1,26 @@
+{
+	title: "Finity Gauntlet",
+	x: 0.0d,
+	y: -9.0d,
+	description: "Make a Caster's Gauntlet",
+	text: [
+		"The Caster's Gauntlet it used to cast spells stored in Foci at the cost of Vis in the area.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"5b1c7851"
+	],
+	tasks: [{
+		uid: "554c0905",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa88fa74",
+		type: "random",
+		table: 0
+	}]
+}

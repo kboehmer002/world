@@ -1,0 +1,88 @@
+{
+	title: "Legendary",
+	loot_size: 1,
+	rewards: [{
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "darkutils:trap_move_hyper",
+		count: 6,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:draconium_block",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "draconicevolution:dislocator",
+		weight: 3
+	},
+	{
+		item: "mysticalagradditions:insanium",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "tp:growth_upgrade_two",
+		weight: 3
+	},
+	{
+		item: "projecte:item.pe_matter",
+		weight: 2
+	},
+	{
+		item: "thermalfoundation:upgrade 1 3",
+		weight: 2
+	},
+	{
+		item: "chancecubes:silk_touch_pendant"
+	},
+	{
+		item: "mysticalagriculture:soulium_dagger",
+		weight: 3
+	},
+	{
+		item: "tp:reinforced_obsidian",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "botania:storage 1 1",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "randomthings:advanceditemcollector",
+		weight: 3
+	},
+	{
+		item: "yabba:item_barrel_connector",
+		weight: 3
+	},
+	{
+		item: "tp:emerald_cobblegen_block",
+		weight: 3
+	},
+	{
+		team_reward: true,
+		item: "mysticalagriculture:ultimate_furnace",
+		weight: 2
+	},
+	{
+		item: "projecte:item.pe_repair_talisman"
+	}],
+	loot_crate: {
+		string_id: "legendary",
+		item_name: "Legendary Loot Crate",
+		color: 16761159,
+		glow: true,
+		drops: {
+			boss: 100,
+			passive: 1,
+			monster: 5
+		}
+	}
+}

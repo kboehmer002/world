@@ -1,0 +1,24 @@
+{
+	title: "EMCyclopedia",
+	x: 0.0d,
+	y: -2.0d,
+	description: "Make a Tome of Knowledge",
+	text: [
+		"The Tome of Knowledge will unlock all items that have EMC for use in the Tramsutation Table."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "e82b0fe0",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_tome"
+		}]
+	}],
+	rewards: [{
+		uid: "92276acb",
+		type: "random",
+		table: 0
+	}]
+}

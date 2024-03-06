@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"Tier 4 core"
+	],
+	dependencies: [
+		"38a5948d"
+	],
+	tasks: [{
+		uid: "aae9082d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "e899697b",
+		type: "random",
+		table: 0
+	}]
+}

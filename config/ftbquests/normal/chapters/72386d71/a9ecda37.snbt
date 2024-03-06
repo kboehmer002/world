@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	description: "World Breaker",
+	text: [
+		"Shift + right-click while holding it will turn it into hammer mode and doing it again will change it back to normal. In this mode it will take time to mine blocks and after breaking one it will also instantly mine a 16x16x9 cube where 9 is the number",
+		"of blocks it will mine in the direction the player is facing."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "55af4eab",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "94068e69",
+		type: "random",
+		table: 0
+	}]
+}

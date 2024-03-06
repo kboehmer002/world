@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Evil Infused Iron",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "xu_evil_metal",
+			Amount: 1000
+		}
+	},
+	x: 3.0d,
+	y: 11.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"4c87687f",
+		"de0f65d3"
+	],
+	tasks: [{
+		uid: "c551fcad",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "xu_evil_metal"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "0ba70696",
+		type: "random",
+		table: 0
+	}]
+}

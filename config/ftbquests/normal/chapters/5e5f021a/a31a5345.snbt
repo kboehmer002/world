@@ -1,0 +1,24 @@
+{
+	title: "Airhead",
+	x: 1.0d,
+	y: -19.0d,
+	description: "Craft a Breezing Doll",
+	text: [
+		"The Breezing Doll spawns a Blitz when used on a Barrel full of Blazing Pyrotheum."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "d1bf6c8d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "e2d62b3c",
+		type: "random",
+		table: 0
+	}]
+}

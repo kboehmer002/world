@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Aluminum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "aluminum",
+			Amount: 1000
+		}
+	},
+	x: -8.0d,
+	y: 1.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"199bdcea",
+		"022cd99e"
+	],
+	tasks: [{
+		uid: "d6f2933e",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "aluminum"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "cc4eac67",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "[Thunderfury, Blessed Blade of the Windseeker]",
+	x: -6.0d,
+	y: -3.0d,
+	description: "Make a Sword of the Zephyr",
+	text: [
+		"The Sword of the Zephyr hits additional targets when used to attack. Blocking will lift you up into the air, while also blowing away mobs and projectiles.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22a22076"
+	],
+	tasks: [{
+		uid: "171f62db",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d0d13047",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Clay",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:clay",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				},
+				{
+					lvl: 5s,
+					id: 16s
+				}],
+				RepairCost: 1
+			}
+		}
+	},
+	{
+		team_reward: true,
+		item: "minecraft:clay",
+		count: 2,
+		weight: 6000
+	}],
+	loot_crate: {
+		string_id: "clay",
+		item_name: "Clay Loot Crate",
+		color: 11184810,
+		glow: true,
+		drops: {
+			boss: 75,
+			passive: 30,
+			monster: 100
+		}
+	}
+}

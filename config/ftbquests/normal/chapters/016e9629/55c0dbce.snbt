@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	description: "Make a Chaotic Fusion Crafting Injector",
+	text: [
+		"The tier 4 injector is used for the really expensive recipes"
+	],
+	dependencies: [
+		"fdca126b"
+	],
+	tasks: [{
+		uid: "02b0bc6a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6f0c8164",
+		type: "random",
+		table: 0
+	}]
+}

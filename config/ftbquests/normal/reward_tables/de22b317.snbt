@@ -1,0 +1,143 @@
+{
+	title: "Epic",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		item: "minecraft:diamond_chestplate"
+	},
+	{
+		item: "minecraft:diamond_leggings"
+	},
+	{
+		item: "minecraft:diamond_boots"
+	},
+	{
+		item: "minecraft:brewing_stand"
+	},
+	{
+		item: "minecraft:ender_eye",
+		count: 3
+	},
+	{
+		item: "minecraft:diamond_horse_armor"
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "minecraft:chorus_flower",
+		count: 3
+	},
+	{
+		item: "extrautils2:ingredients 1 2"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 3"
+	},
+	{
+		item: "tconstruct:ingots",
+		count: 2
+	},
+	{
+		item: "tconstruct:ingots 1 1",
+		count: 2
+	},
+	{
+		item: "tconstruct:ingots 1 4",
+		count: 3
+	},
+	{
+		item: {
+			id: "notenoughwands:acceleration_wand",
+			tag: {}
+		}
+	},
+	{
+		item: "notenoughwands:moving_wand"
+	},
+	{
+		item: "rftools:dimensional_shard",
+		count: 8
+	},
+	{
+		item: "tp:growth_upgrade"
+	},
+	{
+		item: "minecraft:ghast_tear",
+		count: 2
+	},
+	{
+		item: "darkutils:trap_move_fast",
+		count: 8
+	},
+	{
+		item: "darkutils:ender_hopper"
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 3
+	},
+	{
+		item: "extrautils2:user",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:item_phantom_connector"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		},
+		count: 2
+	},
+	{
+		item: "botania:storage"
+	},
+	{
+		item: "chancecubes:compact_giant_chance_cube",
+		count: 2
+	},
+	{
+		item: "enderio:item_advanced_item_filter",
+		count: 2
+	},
+	{
+		item: "enderio:item_extract_speed_upgrade",
+		count: 6
+	},
+	{
+		item: "randomthings:itemcollector"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "tp:emerald_spear"
+	},
+	{
+		item: "yabba:item_barrel",
+		count: 2
+	},
+	{
+		item: "mob_grinding_utils:wither_muffler"
+	},
+	{
+		item: "randomthings:spectrecoil_number",
+		weight: 2
+	}],
+	loot_crate: {
+		string_id: "epic",
+		item_name: "Epic Loot Crate",
+		color: 8388863,
+		drops: {
+			boss: 10,
+			passive: 1,
+			monster: 45
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	title: "CD-ROM",
+	x: -1.0d,
+	y: -6.0d,
+	description: "Make an ME Drive",
+	text: [
+		"An ME Drive stores up to 10 Storage Cells."
+	],
+	dependencies: [
+		"437d71bf"
+	],
+	tasks: [{
+		uid: "c3d65d1f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a231be27",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	description: "Make a Magnum Star Sphere",
+	dependencies: [
+		"c15e05f7"
+	],
+	tasks: [{
+		uid: "50e52a05",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_sphere",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7328fb72",
+		type: "random",
+		table: 0
+	}]
+}

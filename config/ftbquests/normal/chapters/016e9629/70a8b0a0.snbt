@@ -1,0 +1,25 @@
+{
+	title: "What's Wrong McFly? Chicken?",
+	x: 2.0d,
+	y: -2.0d,
+	description: "Obtain a Dragon Heart",
+	text: [
+		"Obtain a Dragon Heart by killing the Mighty Ender Chicken."
+	],
+	dependencies: [
+		"4515a64b",
+		"67cd787a"
+	],
+	tasks: [{
+		uid: "0decce95",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "56af012b",
+		type: "random",
+		table: 0
+	}]
+}

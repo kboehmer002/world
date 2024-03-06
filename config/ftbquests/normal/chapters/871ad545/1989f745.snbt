@@ -1,0 +1,24 @@
+{
+	title: "Sorcerer's Stone",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Make a Philosopher's Stone",
+	text: [
+		"The Philosopher's Stone is used to transmute things. Use it in recipes to transmute between different items."
+	],
+	tasks: [{
+		uid: "5658794f",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67024fba",
+		type: "random",
+		table: 0
+	}]
+}

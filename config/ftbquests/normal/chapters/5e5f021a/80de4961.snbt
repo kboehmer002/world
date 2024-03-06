@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:ghast"
+		},
+		Damage: 17s
+	},
+	x: -2.0d,
+	y: -23.0d,
+	description: "Kill a Ghast",
+	text: [
+		"Spawn a Ghast by dunking a Squid in Witch Water."
+	],
+	dependencies: [
+		"ddd34616"
+	],
+	tasks: [{
+		uid: "0188106a",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ghast"
+				}
+			}
+		},
+		entity: "minecraft:ghast",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "48ad0fda",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:zombie_pigman"
+		},
+		Damage: 5s
+	},
+	x: -4.0d,
+	y: -23.0d,
+	description: "Kill a Zombie Pigman",
+	text: [
+		"Spawn a Zombie Pigman by dunking a Pig in Witch Water."
+	],
+	dependencies: [
+		"ddd34616"
+	],
+	tasks: [{
+		uid: "f92f55b7",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:zombie_pigman"
+				}
+			}
+		},
+		entity: "minecraft:zombie_pigman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "56caf5c6",
+		type: "random",
+		table: 0
+	}]
+}

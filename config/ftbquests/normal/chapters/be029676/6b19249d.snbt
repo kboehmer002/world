@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	description: "Controller Slave",
+	text: [
+		"Controller Slaves act as an extension of a drawer controller"
+	],
+	dependencies: [
+		"b229737d"
+	],
+	tasks: [{
+		uid: "2bc4875e",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controllerslave"
+		}]
+	}],
+	rewards: [{
+		uid: "4006746d",
+		type: "random",
+		table: 0
+	}]
+}

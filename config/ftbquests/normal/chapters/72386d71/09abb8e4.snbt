@@ -1,0 +1,24 @@
+{
+	icon: "avaritia:neutron_collector",
+	x: 0.0d,
+	y: -6.0d,
+	description: "Neutron Collector",
+	text: [
+		"The Neutron Collector collects Pile of Neutrons"
+	],
+	dependencies: [
+		"68e83a46"
+	],
+	tasks: [{
+		uid: "b64163f9",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "921c8de4",
+		type: "random",
+		table: 0
+	}]
+}

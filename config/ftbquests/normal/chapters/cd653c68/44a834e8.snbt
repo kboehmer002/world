@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: 4.0d,
+	description: "Tier 2 Crafting Seed",
+	dependencies: [
+		"9179cca1",
+		"85a33a56"
+	],
+	tasks: [{
+		uid: "74167c43",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "a70b6c3b",
+		type: "random",
+		table: 0
+	}]
+}

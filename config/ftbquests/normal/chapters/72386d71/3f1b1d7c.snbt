@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	description: "Lead Singularity",
+	text: [
+		"Compress 12200 Blocks of Lead into an Lead Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "441c37d0",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "060fcd58",
+		type: "random",
+		table: 0
+	}]
+}

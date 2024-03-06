@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: -6.0d,
+	description: "Black Hole Unit",
+	text: [
+		"It can hold up to 2,147,483,647 of one item"
+	],
+	tasks: [{
+		uid: "eb588ba2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "d57e5e3e",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Blowing Hot Air",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Make Arcane Bellows",
+	text: [
+		"Arcane Bellows speed up Furnaces.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"75e7e7e8"
+	],
+	tasks: [{
+		uid: "f0728e4e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "43aba9f8",
+		type: "random",
+		table: 0
+	}]
+}

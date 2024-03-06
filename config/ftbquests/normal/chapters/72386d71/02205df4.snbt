@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	description: "Boots",
+	text: [
+		"When wearing you can jump 4 blocks and run extremely quickly.",
+		"When worn together with the Infinity Breastplate the flight mode is also faster."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "e7db12d3",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}]
+	}],
+	rewards: [{
+		uid: "60a2bab5",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	description: "Make a Magnum Star Drei",
+	dependencies: [
+		"d1ac7a6c"
+	],
+	tasks: [{
+		uid: "0c5d78e4",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_drei",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "816a0c22",
+		type: "random",
+		table: 0
+	}]
+}

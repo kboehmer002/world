@@ -1,0 +1,26 @@
+{
+	title: "The Building Block of Life",
+	icon: "exnihilocreatio:item_pebble",
+	x: -21.0d,
+	y: -21.0d,
+	description: "Gather Stone Pebbles",
+	text: [
+		"Pebbles are obtained by breaking Stone with an empty hand. You can throw them or craft them into Cobblestone."
+	],
+	tasks: [{
+		uid: "63b2d1bc",
+		type: "item",
+		icon: "exnihilocreatio:item_pebble",
+		items: [{
+			item: "exnihilocreatio:item_pebble"
+		}],
+		count: 16L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d33082e7",
+		type: "random",
+		table: 0
+	}]
+}

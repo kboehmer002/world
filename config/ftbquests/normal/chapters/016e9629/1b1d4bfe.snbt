@@ -1,0 +1,26 @@
+{
+	title: "The Big Bad",
+	x: 4.0d,
+	y: -4.0d,
+	description: "Obtain a Chaos Shard",
+	text: [
+		"Obtain a Chaos Shard by killing the Chaos Chicken."
+	],
+	dependencies: [
+		"025ee6ae",
+		"70a8b0a0"
+	],
+	tasks: [{
+		uid: "9935d0d2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c52d5e2",
+		type: "random",
+		table: 0
+	}]
+}

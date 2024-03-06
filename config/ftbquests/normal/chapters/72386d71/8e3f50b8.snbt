@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 7.0d,
+	description: "Breastplate",
+	text: [
+		"When wearing it you are no longer affected by debuffs. ",
+		"When worn together with the Infinity Boots the flight mode is also faster."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "cbb3bd94",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}]
+	}],
+	rewards: [{
+		uid: "4c24a6bc",
+		type: "random",
+		table: 0
+	}]
+}

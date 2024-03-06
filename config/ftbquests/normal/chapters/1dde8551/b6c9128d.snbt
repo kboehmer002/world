@@ -1,0 +1,26 @@
+{
+	title: "The Numbers, What Do They Mean?!",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Analyze a Chicken",
+	text: [
+		"Every chicken has 3 stats: Gain, Growth, and Strength. Gain lowers the amount of time it takes to lay materials. Growth decreases the amount of time it takes  to breed. Strength increases the amount of materials laid.",
+		"Every time two chickens are bred, their offspring will have a chance to mutate better stats.",
+		"You can use the Chicken Analyzer to see the stats of Chickens. Chickens in item form have their stats in their tooltip."
+	],
+	dependencies: [
+		"ea33311b"
+	],
+	tasks: [{
+		uid: "db1c18b1",
+		type: "item",
+		items: [{
+			item: "chickens:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "d821d528",
+		type: "random",
+		table: 0
+	}]
+}

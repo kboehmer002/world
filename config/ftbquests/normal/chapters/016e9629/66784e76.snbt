@@ -1,0 +1,26 @@
+{
+	title: "Porter",
+	x: -2.0d,
+	y: -2.0d,
+	description: "Make an Advanced Dislocator",
+	text: [
+		"The Advanced Dislocator stores up to 100 locations and uses Ender Pearls as fuel to teleport between them."
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "3f5b6978",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eeb09eda",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	description: "Make a Draconic Fusion Crafting Injector",
+	text: [
+		"The tier 3 injector is used for most of the more expensive recipes"
+	],
+	dependencies: [
+		"5509c9d1"
+	],
+	tasks: [{
+		uid: "2549c771",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3628a6b6",
+		type: "random",
+		table: 0
+	}]
+}

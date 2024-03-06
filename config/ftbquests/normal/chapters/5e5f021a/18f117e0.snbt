@@ -1,0 +1,25 @@
+{
+	title: "The End, but Not Really",
+	x: -9.0d,
+	y: -25.0d,
+	description: "Reach the End",
+	text: [
+		"To reach the End, mine to the top of the mining dimension. ",
+		"The End, like the other dimensions, are almost completely solid. The End is made of End Stone and End ores."
+	],
+	dependencies: [
+		"325c2948"
+	],
+	tasks: [{
+		uid: "a22e83e8",
+		type: "dimension",
+		title: "Visit the End",
+		icon: "minecraft:ender_pearl",
+		dim: -8
+	}],
+	rewards: [{
+		uid: "23017630",
+		type: "random",
+		table: 0
+	}]
+}

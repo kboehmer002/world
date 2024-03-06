@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	description: "Redstone Singularity",
+	text: [
+		"Compress 13000 Blocks of Redstone into an Redstone Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "8f30b79b",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "88a3b55a",
+		type: "random",
+		table: 0
+	}]
+}

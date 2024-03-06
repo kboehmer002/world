@@ -1,0 +1,23 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	description: "Nature's Ruin",
+	text: [
+		"Shift + right-click while holding it will mine all wooden blocks in a 26x26 area around the player and turn every Grass Block into a Dirt Block. "
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "8108f7b4",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}]
+	}],
+	rewards: [{
+		uid: "21c80187",
+		type: "random",
+		table: 0
+	}]
+}

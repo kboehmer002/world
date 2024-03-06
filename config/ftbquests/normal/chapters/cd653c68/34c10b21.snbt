@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"9179cca1",
+		"d9fe18cd"
+	],
+	tasks: [{
+		uid: "1d11d80e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "ebdd3c13",
+		type: "random",
+		table: 0
+	}]
+}

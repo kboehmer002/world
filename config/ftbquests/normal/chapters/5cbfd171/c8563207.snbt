@@ -1,0 +1,24 @@
+{
+	title: "#BlameSoaryn",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Make a Golemancer's Bell",
+	text: [
+		"The Golemancer's Bell allows you to see and modify Control Seals."
+	],
+	dependencies: [
+		"22c3a3d7"
+	],
+	tasks: [{
+		uid: "8e542f1b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:golem_bell"
+		}]
+	}],
+	rewards: [{
+		uid: "401cfe3b",
+		type: "random",
+		table: 0
+	}]
+}

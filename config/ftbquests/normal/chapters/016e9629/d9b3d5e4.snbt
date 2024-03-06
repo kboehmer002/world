@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	description: "Make a Draconic Flux Capacitor",
+	text: [
+		"This capacitor has a capacity of 256 Million RF"
+	],
+	dependencies: [
+		"66a03c68"
+	],
+	tasks: [{
+		uid: "3806c19d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96284fb3",
+		type: "random",
+		table: 0
+	}]
+}

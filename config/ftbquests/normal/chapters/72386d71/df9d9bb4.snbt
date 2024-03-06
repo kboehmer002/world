@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	description: "Iron Singularity",
+	text: [
+		"Compress 12600 Blocks of Iron into an Iron Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "ea0d1b89",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity"
+		}]
+	}],
+	rewards: [{
+		uid: "8d080403",
+		type: "random",
+		table: 0
+	}]
+}

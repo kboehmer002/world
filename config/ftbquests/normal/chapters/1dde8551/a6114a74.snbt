@@ -1,0 +1,21 @@
+{
+	title: "Vegan",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Grow a Chicken",
+	text: [
+		"Crossbreed some Chicken Essence using Mystical Agriculture."
+	],
+	tasks: [{
+		uid: "51ca2dfd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chicken_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "275598ef",
+		type: "random",
+		table: 0
+	}]
+}

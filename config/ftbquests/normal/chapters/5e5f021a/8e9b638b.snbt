@@ -1,0 +1,24 @@
+{
+	title: "Too Old to Play With Dolls",
+	x: -1.0d,
+	y: -19.0d,
+	description: "Craft a Porcelain Doll",
+	text: [
+		"The Porcelain Doll is used to craft the other Dolls, which spawn specific mobs when used on a Barrel full of a specific fluid."
+	],
+	dependencies: [
+		"a30e5a18"
+	],
+	tasks: [{
+		uid: "95bcaae7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "b3c47f05",
+		type: "random",
+		table: 0
+	}]
+}

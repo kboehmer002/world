@@ -1,0 +1,38 @@
+{
+	title: "Fluid Cow: Tectonic Petrotheum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "petrotheum",
+			Amount: 1000
+		}
+	},
+	x: 11.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de2f901e",
+		"51a15d03"
+	],
+	tasks: [{
+		uid: "a6232183",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "petrotheum"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "a501763a",
+		type: "random",
+		table: 0
+	}]
+}

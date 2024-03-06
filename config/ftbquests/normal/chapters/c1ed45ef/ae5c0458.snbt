@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Silver",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "silver",
+			Amount: 1000
+		}
+	},
+	x: -1.0d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"f28c5927"
+	],
+	tasks: [{
+		uid: "7e155153",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "silver"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "b3807e34",
+		type: "random",
+		table: 0
+	}]
+}

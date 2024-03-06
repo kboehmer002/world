@@ -1,0 +1,27 @@
+{
+	title: "2¹⁰ Items",
+	x: -1.0d,
+	y: -4.0d,
+	description: "Make a 1K Storage Cell",
+	text: [
+		"Lowest Tier Storage Cell, which can contain 1,024 bytes of storage with a maximum of 63 unique items.",
+		"A stack of 64 items takes up 8 bytes."
+	],
+	dependencies: [
+		"7e0e270c"
+	],
+	tasks: [{
+		uid: "4f0d1ddc",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af9ad8bf",
+		type: "random",
+		table: 0
+	}]
+}

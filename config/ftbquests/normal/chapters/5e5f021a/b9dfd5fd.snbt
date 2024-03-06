@@ -1,0 +1,24 @@
+{
+	title: "Indentured Servitude",
+	x: -7.0d,
+	y: -25.0d,
+	description: "Craft an Auto Sieve",
+	text: [
+		"The Auto Sieve automatically Sieves blocks at the cost of RF. You can reward it with food to get a temporary boost to speed."
+	],
+	dependencies: [
+		"bac833ca"
+	],
+	tasks: [{
+		uid: "014cfd3f",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "322f3c4c",
+		type: "random",
+		table: 0
+	}]
+}

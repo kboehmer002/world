@@ -1,0 +1,24 @@
+{
+	title: "Smashing",
+	x: 1.0d,
+	y: -18.0d,
+	description: "Craft a Crushing Doll",
+	text: [
+		"The Crushing Doll spawns a Basalz when used on a Barrel full of Blazing Pyrotheum."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "c40be7da",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "973aa774",
+		type: "random",
+		table: 0
+	}]
+}

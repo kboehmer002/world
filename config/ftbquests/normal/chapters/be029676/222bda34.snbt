@@ -1,0 +1,28 @@
+{
+	title: "Crafting On the Go",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Make a Wireless Crafting Terminal",
+	text: [
+		"The Wireless Crafting Terminal acts mostly like the Wireless Terminal, with a Crafting Table.",
+		"It also has a slot for a Magnetic Card which will insert items directly into the ME system when picked up (with an optional whitelist)."
+	],
+	dependencies: [
+		"0f6da5e1"
+	],
+	tasks: [{
+		uid: "04535efd",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8912cf43",
+		type: "random",
+		table: 0
+	}]
+}

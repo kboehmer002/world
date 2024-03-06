@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	description: "Craft an Iron Tier upgrade",
+	text: [
+		"The Iron Tier increases the storage capacity to 256 stacks."
+	],
+	dependencies: [
+		"5397b21d"
+	],
+	tasks: [{
+		uid: "66584c09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_iron_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "dd9a3a1d",
+		type: "random",
+		table: 0
+	}]
+}

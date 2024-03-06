@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "Emerald Singualrity",
+	text: [
+		"Compress 11800 Blocks of Emerald into an Emerald Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "7ed036ac",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "49250da7",
+		type: "random",
+		table: 0
+	}]
+}

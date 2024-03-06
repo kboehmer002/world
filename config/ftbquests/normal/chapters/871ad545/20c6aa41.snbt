@@ -1,0 +1,25 @@
+{
+	title: "This to That",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Make an Energy Condenser",
+	text: [
+		"The Energy Condenser will break any items placed into the main inventory into EMC and then convert that EMC into the target item.",
+		"Place an item in the top left slot to set that as the target item."
+	],
+	dependencies: [
+		"35dce029"
+	],
+	tasks: [{
+		uid: "b0a3caa1",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "c116f8c9",
+		type: "random",
+		table: 0
+	}]
+}

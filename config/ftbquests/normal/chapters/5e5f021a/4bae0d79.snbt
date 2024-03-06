@@ -1,0 +1,24 @@
+{
+	title: "Eyes Like a Doll's Eyes",
+	x: -1.0d,
+	y: -20.0d,
+	description: "Craft a Creepy Doll",
+	text: [
+		"The Creepy Doll spawns an Enderman when used on a Barrel full of Witchwater."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "e6484362",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "bc9944f3",
+		type: "random",
+		table: 0
+	}]
+}

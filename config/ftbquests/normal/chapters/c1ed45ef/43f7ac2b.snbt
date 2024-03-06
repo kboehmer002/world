@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Conductive Iron",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "conductive_iron",
+			Amount: 1000
+		}
+	},
+	x: 1.0d,
+	y: 9.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"51a15d03"
+	],
+	tasks: [{
+		uid: "58a9dfb0",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "conductive_iron"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "9de24065",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "And Steven!",
+	icon: "projecte:item.pe_gem_armor_3",
+	x: 4.0d,
+	y: 4.0d,
+	description: "Make a suit of Gem Armor",
+	text: [
+		"The Gem Helmet prevents drowning, gives night vision and allows the wearer to shoot lightning.",
+		"The Gem Chestplate protects against fire and lava and allows the wearer to explode on command.",
+		"The Gem Leggings allow the wearer to rapidly descend and blow back enemies by sneaking.",
+		"The Gem Boots protect from fall damage, provides a jump boost, and slows the rate of fall."
+	],
+	dependencies: [
+		"a1803675"
+	],
+	tasks: [{
+		uid: "2921fe59",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_3"
+		}]
+	},
+	{
+		uid: "f371cd50",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}]
+	},
+	{
+		uid: "6e5b2c8d",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_1"
+		}]
+	},
+	{
+		uid: "27c7ca6f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_0"
+		}]
+	}],
+	rewards: [{
+		uid: "20b9a3aa",
+		type: "random",
+		table: 0
+	}]
+}

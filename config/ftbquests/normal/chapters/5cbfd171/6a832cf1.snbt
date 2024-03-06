@@ -1,0 +1,25 @@
+{
+	title: "Turret Gun",
+	x: -3.0d,
+	y: 1.0d,
+	description: "Make an Advanced Automated Crossbow",
+	text: [
+		"The Advanced Automated Crossbow has a quick rate of fire and can be set to only attack certain mobs.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"75e7e7e8"
+	],
+	tasks: [{
+		uid: "c9790820",
+		type: "item",
+		items: [{
+			item: "thaumcraft:turret 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3e519622",
+		type: "random",
+		table: 0
+	}]
+}

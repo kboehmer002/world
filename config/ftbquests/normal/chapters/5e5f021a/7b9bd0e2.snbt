@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -17.0d,
+	description: "Craft a Cobblestone Generator Tier 2",
+	text: [
+		"The Cobblestone Generator Tier 2 makes 1 Cobblestone every second."
+	],
+	dependencies: [
+		"1ddaa536"
+	],
+	tasks: [{
+		uid: "8f4bf114",
+		type: "item",
+		items: [{
+			item: "tp:iron_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "293433f0",
+		type: "random",
+		table: 0
+	}]
+}

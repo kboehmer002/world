@@ -1,0 +1,25 @@
+{
+	title: "Crafter Part",
+	x: 5.0d,
+	y: -4.0d,
+	description: "Make a Crafting Unit",
+	text: [
+		"All components of the Crafting CPU are crafted with the Crafting Unit.",
+		"The Crafting CPU multiblock must have exactly 6 sides for it to function."
+	],
+	dependencies: [
+		"5b4d2d95"
+	],
+	tasks: [{
+		uid: "9ed7730e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "495862f3",
+		type: "random",
+		table: 0
+	}]
+}

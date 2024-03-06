@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: -4.0d,
+	description: "Compacting drawers",
+	text: [
+		"Compacting Drawers hold the item inside, as well as whatever it compresses into and what compresses into it."
+	],
+	dependencies: [
+		"4ef5f8c5"
+	],
+	tasks: [{
+		uid: "27e0b31c",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "ef161ad0",
+		type: "random",
+		table: 0
+	}]
+}

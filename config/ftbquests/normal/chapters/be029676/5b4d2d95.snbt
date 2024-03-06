@@ -1,0 +1,25 @@
+{
+	title: "Automated Crafting",
+	x: 5.0d,
+	y: -6.0d,
+	description: "Molecular Assembler",
+	text: [
+		"You can connect it directly to the system and insert an Encoded Pattern into it and it will craft that item. ",
+		"You can also connect up to 6 to an ME Interface and put the Encoded Patterns into the Interface andit will use the Molecular Assemblers to craft the items."
+	],
+	dependencies: [
+		"57b9cbec"
+	],
+	tasks: [{
+		uid: "8bc906a9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "0df38872",
+		type: "random",
+		table: 0
+	}]
+}

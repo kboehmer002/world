@@ -1,0 +1,28 @@
+{
+	title: "Wicked Water",
+	x: -3.0d,
+	y: -21.0d,
+	description: "Get some Witchwater",
+	text: [
+		"Witchwater can be used to transform items and mobs into more ghastly versions."
+	],
+	dependencies: [
+		"a30e5a18"
+	],
+	tasks: [{
+		uid: "f75e4f59",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "witchwater",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "798b0364",
+		type: "random",
+		table: 0
+	}]
+}

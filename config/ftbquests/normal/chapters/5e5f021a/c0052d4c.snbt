@@ -1,0 +1,24 @@
+{
+	title: "Burning Effigy",
+	x: -1.0d,
+	y: -18.0d,
+	description: "Craft a Blazing Doll",
+	text: [
+		"The Blazing Doll spawns a Blaze when used on a Stone Barrel full of Lava."
+	],
+	dependencies: [
+		"8e9b638b"
+	],
+	tasks: [{
+		uid: "53388e4e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll"
+		}]
+	}],
+	rewards: [{
+		uid: "81da4baf",
+		type: "random",
+		table: 0
+	}]
+}

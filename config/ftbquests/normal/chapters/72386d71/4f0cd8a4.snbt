@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "Neutronium Compressor",
+	text: [
+		"Compresses blocks to singularitys"
+	],
+	dependencies: [
+		"09abb8e4"
+	],
+	tasks: [{
+		uid: "d2246e01",
+		type: "item",
+		items: [{
+			item: "avaritia:neutronium_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "1a7abfe8",
+		type: "random",
+		table: 0
+	}]
+}

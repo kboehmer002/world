@@ -1,0 +1,516 @@
+{
+	title: "Main table",
+	icon: "botania:dice",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "minecraft:hopper",
+		count: 3,
+		weight: 30
+	},
+	{
+		item: "cyclicmagic:tool_torch_launcher",
+		weight: 30
+	},
+	{
+		item: {
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		},
+		weight: 30
+	},
+	{
+		item: "chancecubes:chance_cube",
+		count: 8,
+		weight: 30
+	},
+	{
+		item: "tp:cobblegen_block",
+		weight: 30
+	},
+	{
+		item: "thermalfoundation:tool.hammer_invar",
+		weight: 28
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		count: 12,
+		weight: 30
+	},
+	{
+		item: "botania:blacklotus",
+		count: 8,
+		weight: 30
+	},
+	{
+		item: "fluxnetworks:fluxstorage",
+		weight: 20
+	},
+	{
+		item: "extrautils2:ingredients 1 6",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "enderstorage:ender_storage",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "enderstorage:ender_storage 1 1",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "draconicevolution:draconic_core",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "actuallyadditions:item_spawner_changer",
+		weight: 20
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33",
+		weight: 20
+	},
+	{
+		item: "extrautils2:crafter",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "extrautils2:ingredients 1 15",
+		count: 8,
+		weight: 8
+	},
+	{
+		item: "fluxnetworks:herculeanfluxstorage",
+		weight: 8
+	},
+	{
+		item: "randomthings:advanceditemcollector",
+		weight: 8
+	},
+	{
+		item: "thaumcraft:ingot 1 1",
+		count: 2,
+		weight: 8
+	},
+	{
+		item: "appliedenergistics2:drive",
+		weight: 8
+	},
+	{
+		item: "projecte:item.pe_repair_talisman",
+		weight: 3
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 4,
+		weight: 8
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34",
+		weight: 8
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		count: 2,
+		weight: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 38",
+		count: 4,
+		weight: 8
+	},
+	{
+		item: {
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		},
+		weight: 6
+	},
+	{
+		item: "mysticalagradditions:storage",
+		weight: 6
+	},
+	{
+		item: "chancecubes:silk_touch_pendant",
+		weight: 6
+	},
+	{
+		item: "quantumflux:imaginarytime",
+		weight: 6
+	},
+	{
+		item: "mysticalagradditions:special",
+		weight: 6
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 6,
+		weight: 6
+	},
+	{
+		item: "mysticalagriculture:ultimate_furnace",
+		weight: 6
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35",
+		count: 2,
+		weight: 6
+	},
+	{
+		item: "extrautils2:ingredients 1 16",
+		count: 16,
+		weight: 6
+	},
+	{
+		item: "mysticalagradditions:special 1 4",
+		weight: 2
+	},
+	{
+		item: "tp:netherstar_block",
+		weight: 2
+	},
+	{
+		item: "extrautils2:angelring",
+		weight: 2
+	},
+	{
+		item: "mysticalagradditions:special 1 1",
+		weight: 2
+	},
+	{
+		item: {
+			id: "avaritia:skullfire_sword",
+			tag: {
+				ench: [{
+					lvl: 25s,
+					id: 21s
+				}],
+				Unbreakable: 1,
+				HideFlags: 0,
+				AttributeModifiers: [{
+					UUIDMost: 8962846864864987917L,
+					UUIDLeast: -7324077734101406172L,
+					Amount: 999.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	},
+	{
+		item: "enderio:item_basic_capacitor",
+		count: 4,
+		weight: 28
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 1",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2",
+		weight: 15
+	},
+	{
+		item: "extrautils2:drum 1 3",
+		weight: 20
+	},
+	{
+		item: "rftools:builder",
+		weight: 8
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_chest",
+			tag: {
+				ChestColour: 6553750
+			}
+		},
+		weight: 7
+	},
+	{
+		item: {
+			id: "exchangers:resonant_exchanger",
+			tag: {
+				exmode: 0,
+				forceDropItems: 0b,
+				Energy: 20000000,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_diamond_tier"
+		},
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "exnihilocreatio:block_auto_sifter",
+		weight: 25
+	},
+	{
+		item: "immersiveengineering:metal_device1 1 13",
+		weight: 15
+	},
+	{
+		team_reward: true,
+		item: "extrautils2:passivegenerator 1 3",
+		count: 4,
+		weight: 22
+	},
+	{
+		team_reward: true,
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		},
+		weight: 18
+	},
+	{
+		team_reward: true,
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		},
+		weight: 18
+	},
+	{
+		team_reward: true,
+		item: "thermalfoundation:tome_lexicon",
+		weight: 24
+	},
+	{
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"plustic:": {
+					Size: 1,
+					Items: []
+				},
+				"plustic:fruitsalad_cap": {
+					Size: 5,
+					Items: []
+				},
+				"plustic:musicofthespheres_cap": {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "plustic:laser_gun",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					LaserGunPower: 2.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 780,
+					HarvestLevel: 3,
+					LaserGunEnergy: 120000,
+					Attack: 2.5f,
+					LaserGunRange: 20.0f
+				},
+				LockCooldown: 0,
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					LaserGunPower: 2.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 780,
+					HarvestLevel: 3,
+					LaserGunEnergy: 120000,
+					Attack: 2.5f,
+					LaserGunRange: 20.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				AttackDuration: 0,
+				TinkerData: {
+					Materials: [
+						"invar",
+						"invar",
+						"prismarine",
+						"manyullyn"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "devilsstrength",
+					color: -2697514,
+					level: 1
+				},
+				{
+					identifier: "magnetic",
+					color: -2697514,
+					level: 1,
+					magnetic1: 1b
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"devilsstrength",
+					"magnetic1",
+					"aquadynamic",
+					"coldblooded",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 15
+	},
+	{
+		team_reward: true,
+		item: "cyclicmagic:block_anvil",
+		weight: 10
+	},
+	{
+		team_reward: true,
+		item: "cyclicmagic:water_candle",
+		weight: 20
+	},
+	{
+		team_reward: true,
+		item: "cyclicmagic:magnet_block",
+		weight: 20
+	},
+	{
+		team_reward: true,
+		item: "cyclicmagic:entity_detector",
+		weight: 21
+	},
+	{
+		team_reward: true,
+		item: "enderio:block_simple_alloy_smelter",
+		weight: 18
+	},
+	{
+		team_reward: true,
+		item: "tp:birthday_pickaxe",
+		weight: 26
+	},
+	{
+		team_reward: true,
+		item: "actuallyadditions:block_phantomface",
+		count: 6,
+		weight: 20
+	},
+	{
+		team_reward: true,
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				mode: "BuildToMe",
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		weight: 13
+	},
+	{
+		team_reward: true,
+		item: {
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				mode: "Wall",
+				range: 1,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		weight: 13
+	},
+	{
+		team_reward: true,
+		item: "draconicevolution:generator",
+		weight: 17
+	},
+	{
+		team_reward: true,
+		item: "enderio:block_simple_sag_mill",
+		weight: 18
+	},
+	{
+		team_reward: true,
+		item: {
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 13s
+		},
+		weight: 6
+	},
+	{
+		team_reward: true,
+		item: "environmentaltech:void_ore_miner_cont_1",
+		weight: 12
+	}]
+}

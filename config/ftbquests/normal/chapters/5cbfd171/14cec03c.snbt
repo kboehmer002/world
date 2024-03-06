@@ -1,0 +1,25 @@
+{
+	title: "Fairy Lights",
+	x: 4.0d,
+	y: -5.0d,
+	description: "Make some Yellow Nitor",
+	text: [
+		"Nitor can be used as a light source as well as a heat source for Thaumcraft's Crucible.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"5b1c7851"
+	],
+	tasks: [{
+		uid: "ff35b22b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "07ab087a",
+		type: "random",
+		table: 0
+	}]
+}

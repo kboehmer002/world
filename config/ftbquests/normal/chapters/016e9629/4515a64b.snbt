@@ -1,0 +1,21 @@
+{
+	title: "Knawledge",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Make a Draconic Evolution Information Tablet",
+	text: [
+		"The Draconic Evolution Information Tablet, as the name implies, has information on pretty much everything in Draconic Evolution."
+	],
+	tasks: [{
+		uid: "717118a8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:info_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "1de285ba",
+		type: "random",
+		table: 0
+	}]
+}

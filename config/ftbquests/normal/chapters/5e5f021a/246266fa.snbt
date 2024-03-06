@@ -1,0 +1,29 @@
+{
+	title: "Cobblestoneblock",
+	icon: "minecraft:cobblestone",
+	x: -19.0d,
+	y: -21.0d,
+	description: "Make Cobblestone",
+	text: [
+		"Combine 4 Pebbles into Cobblestone."
+	],
+	dependencies: [
+		"262954b7"
+	],
+	tasks: [{
+		uid: "db7a1ef5",
+		type: "item",
+		icon: "minecraft:cobblestone",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 12L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57a0da8f",
+		type: "random",
+		table: 0
+	}]
+}

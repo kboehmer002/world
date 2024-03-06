@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	description: "Make a Klein Star Sphere",
+	dependencies: [
+		"71da2e39"
+	],
+	tasks: [{
+		uid: "10d4d3aa",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b931109",
+		type: "random",
+		table: 0
+	}]
+}

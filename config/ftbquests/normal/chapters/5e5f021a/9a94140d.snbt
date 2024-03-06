@@ -1,0 +1,35 @@
+{
+	title: "Dirtmouth",
+	icon: "minecraft:dirt",
+	x: -15.0d,
+	y: -21.0d,
+	description: "Make Dirt",
+	text: [
+		"Craft a Stone Hammer and use it on Cobblestone to get Gravel, and then to get Dirt."
+	],
+	dependencies: [
+		"09a4f53c"
+	],
+	tasks: [{
+		uid: "c0228b62",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eea03cf7",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "dbf118d1",
+		type: "random",
+		table: 0
+	}]
+}

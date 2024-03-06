@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"This lets you directly import items in your personal EMC storage, which you can access from Transmutation Table."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "b9715369",
+		type: "item",
+		items: [{
+			item: "projectex:personal_link"
+		}]
+	}],
+	rewards: [{
+		uid: "5c4b9347",
+		type: "random",
+		table: 0
+	}]
+}

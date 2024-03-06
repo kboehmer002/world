@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"The lowest tier core"
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "3119110f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "f643dcec",
+		type: "random",
+		table: 0
+	}]
+}

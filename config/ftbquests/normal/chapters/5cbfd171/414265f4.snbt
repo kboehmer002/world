@@ -1,0 +1,27 @@
+{
+	title: "Flux Filter",
+	x: 6.0d,
+	y: -4.0d,
+	description: "Make an Auxiliary Venting Port",
+	text: [
+		"The Auxiliary Venting Port will reduce the amount of Flux generated when breaking an item down into Essentia in the Essentia Smelter.",
+		"Consult the Thaumonomicon for instructions on how to make.",
+		"",
+		"Tip: Biome Marker and Terraformer"
+	],
+	dependencies: [
+		"14cec03c"
+	],
+	tasks: [{
+		uid: "9f80bedc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "6c56235e",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Fluid Cow: Lava",
+	icon: "minecraft:lava_bucket",
+	x: 3.0d,
+	y: -7.0d,
+	text: [
+		"Get this cow by crafting the corresponding Cow Displayer."
+	],
+	tasks: [{
+		uid: "1d77e033",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_displayer",
+			tag: {
+				fluid: "lava"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "50af1af0",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	description: "Diamond Singularity",
+	text: [
+		"Compress 12200 Blocks of Diamond into an Diamond Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "397e6d52",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "4a4284da",
+		type: "random",
+		table: 0
+	}]
+}

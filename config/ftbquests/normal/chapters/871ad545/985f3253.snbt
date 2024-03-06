@@ -1,0 +1,24 @@
+{
+	title: "Equivalent Exchange",
+	x: -6.0d,
+	y: 0.0d,
+	description: "Make an Energy Condenser MK2",
+	text: [
+		"The Energy Condenser MK2 works similarthe MK1, but it works significantly faster and has separate inventories for input and output."
+	],
+	dependencies: [
+		"20c6aa41"
+	],
+	tasks: [{
+		uid: "08548b88",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "53a27da8",
+		type: "random",
+		table: 0
+	}]
+}

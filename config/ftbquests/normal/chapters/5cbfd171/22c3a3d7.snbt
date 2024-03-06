@@ -1,0 +1,25 @@
+{
+	title: "Artificial Intelligence",
+	x: 2.0d,
+	y: -1.0d,
+	description: "Make a Clockwork Mind",
+	text: [
+		"Clockwork Minds are required for Golems to function.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"5b1c7851"
+	],
+	tasks: [{
+		uid: "f55354a0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mind"
+		}]
+	}],
+	rewards: [{
+		uid: "7e3e2641",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Digging Deep",
+	x: -6.0d,
+	y: -5.0d,
+	description: "Make a Pickaxe of the Core",
+	text: [
+		"The Pickaxe of the Core has a chance of dropping Clusters instead of the ore, which smelts into two ingots. You can also right click to see nearby ores, though not what kind they are.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22a22076"
+	],
+	tasks: [{
+		uid: "2f077199",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9a44b6c",
+		type: "random",
+		table: 0
+	}]
+}

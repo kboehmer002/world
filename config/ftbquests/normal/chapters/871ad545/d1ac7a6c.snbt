@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	description: "Make a Magnum Star Zwei",
+	dependencies: [
+		"cabb7429"
+	],
+	tasks: [{
+		uid: "62831082",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_zwei",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbb25016",
+		type: "random",
+		table: 0
+	}]
+}

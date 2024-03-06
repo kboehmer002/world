@@ -1,0 +1,36 @@
+{
+	title: "Silk Road",
+	icon: "minecraft:string",
+	x: -9.0d,
+	y: -21.0d,
+	description: "Collect String from Silkworms",
+	text: [
+		"Break Leaves with a Crook to collect Silkworms. You can plant them on Leaves and they will infest them and spread, and eventually turn white. White Leaves can be harvested with a Crook to collect the String."
+	],
+	dependencies: [
+		"0036066c"
+	],
+	tasks: [{
+		uid: "a08744e3",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "283970b5",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b55f499",
+		type: "random",
+		table: 0
+	}]
+}

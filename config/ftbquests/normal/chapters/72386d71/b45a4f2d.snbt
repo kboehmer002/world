@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 7.0d,
+	description: "Leggings",
+	text: [
+		"When wearing these you cannot catch on fire."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "b7875ce9",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}]
+	}],
+	rewards: [{
+		uid: "012e8386",
+		type: "random",
+		table: 0
+	}]
+}

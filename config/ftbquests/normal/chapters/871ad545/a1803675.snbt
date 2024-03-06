@@ -1,0 +1,46 @@
+{
+	icon: "projecte:item.pe_rm_armor_3",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Make a set of Red Matter Armor",
+	text: [
+		"Red Matter Armor reduces 90% of damage."
+	],
+	dependencies: [
+		"c6a0633d",
+		"95a7cb05"
+	],
+	tasks: [{
+		uid: "55e7a223",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_3"
+		}]
+	},
+	{
+		uid: "4c4fb2f3",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_2"
+		}]
+	},
+	{
+		uid: "b7236175",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_1"
+		}]
+	},
+	{
+		uid: "b8276f42",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_0"
+		}]
+	}],
+	rewards: [{
+		uid: "a197dc6b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Photosynthesis is for Suckers",
+	icon: "minecraft:log",
+	x: -11.0d,
+	y: -21.0d,
+	description: "Gather Wood",
+	text: [
+		"Use the Dirt and Saplings to make a tree farm to gather Wood."
+	],
+	dependencies: [
+		"3a1b5581"
+	],
+	tasks: [{
+		uid: "f572db43",
+		type: "item",
+		title: "16x of any Wood",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:log2"
+		}],
+		count: 16L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3cdd9700",
+		type: "random",
+		table: 0
+	}]
+}

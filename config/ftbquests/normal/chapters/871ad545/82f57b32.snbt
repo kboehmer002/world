@@ -1,0 +1,27 @@
+{
+	title: "EMC Battery",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Make a Klein Star Ein",
+	text: [
+		"Klein Stars are used to store EMC which can be used by any items that use EMC.",
+		"You can place a Klein Star in the left slots of a Transmutation Table to charge it or put it in the right slots to discharge it."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "b48056c0",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2b3181b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Barrel⁻¹",
+	x: -3.0d,
+	y: 4.0d,
+	description: "Craft an AntiBarrel",
+	text: [
+		"Like the Item Barrel can hold a large amount of a single item, the AntiBarrel can hold a virtually infinite amount of items that have a stack of 1, like tools and armor."
+	],
+	dependencies: [
+		"5958cb96"
+	],
+	tasks: [{
+		uid: "e6074d50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:antibarrel"
+		}]
+	}],
+	rewards: [{
+		uid: "42c48a64",
+		type: "random",
+		table: 0
+	}]
+}

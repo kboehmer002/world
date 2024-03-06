@@ -1,0 +1,45 @@
+{
+	icon: "projecte:item.pe_dm_armor_3",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Make a set of Dark Matter Armor",
+	text: [
+		"Dark Matter Armor reduces 80% of damage."
+	],
+	dependencies: [
+		"4b41610e"
+	],
+	tasks: [{
+		uid: "da60e792",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_3"
+		}]
+	},
+	{
+		uid: "38f7f7aa",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_2"
+		}]
+	},
+	{
+		uid: "5e00eac4",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_1"
+		}]
+	},
+	{
+		uid: "50d9da1f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_0"
+		}]
+	}],
+	rewards: [{
+		uid: "b0abc7eb",
+		type: "random",
+		table: 0
+	}]
+}

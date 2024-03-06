@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	description: "Fluxed Singularity",
+	text: [
+		"Compress 11400 Fluxed Electrum Blocks into an Fluxed Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "5be00d27",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "12af9357",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	description: "Drawer Controller",
+	text: [
+		"The Drawer Controller will search for any connected drawer within 12 blocks, and then expose all of those drawers as a large combined inventory",
+		""
+	],
+	dependencies: [
+		"7a8cf071"
+	],
+	tasks: [{
+		uid: "895da303",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "7a24c7ec",
+		type: "random",
+		table: 0
+	}]
+}

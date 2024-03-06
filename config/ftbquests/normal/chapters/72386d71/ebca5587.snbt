@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	description: "Sword of the Cosmos",
+	text: [
+		"Does infinity damage, killing almost anything instantly."
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "e5df2ed5",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}]
+	}],
+	rewards: [{
+		uid: "40e9fe00",
+		type: "random",
+		table: 0
+	}]
+}

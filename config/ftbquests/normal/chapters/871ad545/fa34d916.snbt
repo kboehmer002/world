@@ -1,0 +1,25 @@
+{
+	title: "Big Spender",
+	icon: "avaritia:block_resource 1 1",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Get the maximum amount of EMC",
+	text: [
+		"EMC Will be consumed, when clicking the Task to submit!",
+		"Put enough items into the Transmutation Table to reach 9,223,372,036,854,775,807 EMC, the maximum possible amount.",
+		"Tip \"Balanced Clay\""
+	],
+	dependencies: [
+		"07ae5b28"
+	],
+	tasks: [{
+		uid: "fba4828f",
+		type: "emc",
+		value: 9223372036854775807L
+	}],
+	rewards: [{
+		uid: "e2bba97b",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "YABBA Dabba Doo!",
+	x: -5.0d,
+	y: 4.0d,
+	description: "Craft an Item Barrel",
+	text: [
+		"Item Barrels can store 64 stacks of any single item. Sneak right click it for options.",
+		"Items are kept in the Barrel when it is broken."
+	],
+	dependencies: [
+		"2a7a0f0b"
+	],
+	tasks: [{
+		uid: "e64d863c",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "aa7da4e6",
+		type: "random",
+		table: 0
+	}]
+}

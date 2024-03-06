@@ -1,0 +1,27 @@
+{
+	title: "256 Buckets",
+	x: 1.0d,
+	y: -4.0d,
+	description: "Make a 1K Fluid Storage Cell",
+	text: [
+		"Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.",
+		"250mB of a fluid is 1 byte."
+	],
+	dependencies: [
+		"7e0e270c"
+	],
+	tasks: [{
+		uid: "f0730349",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ad9e862",
+		type: "random",
+		table: 0
+	}]
+}

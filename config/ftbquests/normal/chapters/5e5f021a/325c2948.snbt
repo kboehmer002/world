@@ -1,0 +1,25 @@
+{
+	title: "Mining Dimension",
+	icon: "minecraft:iron_pickaxe",
+	x: -9.0d,
+	y: -23.0d,
+	description: "Visit the Mining Dimension",
+	text: [
+		"The Overworld has no ores, it is entirely made of Stone. The only way to find ores is to dig your way up to the top of the Overworld and be teleported to the mining dimension that is full of ores. See JEI to find the y-levels that ores generate at."
+	],
+	dependencies: [
+		"d8fc8a49"
+	],
+	tasks: [{
+		uid: "da284cc3",
+		type: "dimension",
+		title: "Visit Mining Dimension",
+		icon: "minecraft:iron_ore",
+		dim: -7
+	}],
+	rewards: [{
+		uid: "691e4010",
+		type: "random",
+		table: 0
+	}]
+}

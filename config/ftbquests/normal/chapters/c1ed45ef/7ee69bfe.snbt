@@ -1,0 +1,38 @@
+{
+	title: "More valuable than the infinity stones",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "infinity",
+			Amount: 1000
+		}
+	},
+	x: 4.0d,
+	y: 12.0d,
+	shape: "circle",
+	description: "What did it cost",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"b7038919",
+		"d589a6d6"
+	],
+	tasks: [{
+		uid: "c07553c7",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "infinity"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "b8fce099",
+		type: "random",
+		table: 0
+	}]
+}

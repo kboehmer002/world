@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	description: "Planet Eater",
+	text: [
+		"Shift + right-click while holding it will turn it into \"destroyer\" mode and doing it again will change it back to normal. In this mode it will take time to mine blocks and after breaking one it will also instantly mine all shovel compatible blocks",
+		"out of a 16x16x9 cube where 9 is the number of blocks it will mine in the direction the player is facing. "
+	],
+	dependencies: [
+		"ed1e9304"
+	],
+	tasks: [{
+		uid: "c6477e5e",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}]
+	}],
+	rewards: [{
+		uid: "0da0c0e9",
+		type: "random",
+		table: 0
+	}]
+}

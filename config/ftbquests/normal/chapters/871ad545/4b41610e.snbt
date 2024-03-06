@@ -1,0 +1,20 @@
+{
+	title: "Antimatter",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "8d8d643f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "694738a7",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	description: "Calculation Press",
+	text: [
+		"Used to make Printed Calculation Circuits."
+	],
+	dependencies: [
+		"204953f5"
+	],
+	tasks: [{
+		uid: "1f589fc6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "4dc0d288",
+		type: "random",
+		table: 0
+	}]
+}

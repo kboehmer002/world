@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	description: "Copper Singularity",
+	text: [
+		"Compress 12600 Blocks of Copper into an Copper Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "b51e2d78",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "405e7cb2",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "Make a Wyvern Flux Capacitor",
+	text: [
+		"This capacitor has a capacity of 64 Million RF"
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "cebff2b9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1580bb96",
+		type: "random",
+		table: 0
+	}]
+}

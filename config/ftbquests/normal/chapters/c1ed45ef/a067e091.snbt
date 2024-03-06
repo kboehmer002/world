@@ -1,0 +1,30 @@
+{
+	title: "Fluid Cow: Seared Stone",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "stone",
+			Amount: 1000
+		}
+	},
+	x: 9.0d,
+	y: -7.0d,
+	text: [
+		"Get this cow by crafting the corresponding Cow Displayer."
+	],
+	tasks: [{
+		uid: "7bbb4ae2",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_displayer",
+			tag: {
+				fluid: "stone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4146594e",
+		type: "random",
+		table: 0
+	}]
+}

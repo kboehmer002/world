@@ -1,0 +1,34 @@
+{
+	title: "Chaos Chicken",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Growth: 1,
+			Chicken: "morechickens:draconiumawakenedchicken",
+			Gain: 1,
+			Strength: 1
+		}
+	},
+	x: -15.0d,
+	y: -25.0d,
+	description: "Kill the Chaos Chicken",
+	text: [
+		"The Chaos Chicken is spawned by dropping a Dragon Egg on a ring of Obsidian with a Diamond Block in the middle in the End.",
+		"Use the Chicken Stick to destroy the Chicken's shield."
+	],
+	dependencies: [
+		"67cd787a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "43cd1c36",
+		type: "kill",
+		entity: "mightyenderchicken:ent_chaoschicken",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "896f325e",
+		type: "random",
+		table: 0
+	}]
+}

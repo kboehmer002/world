@@ -1,0 +1,24 @@
+{
+	title: "Remote Access",
+	x: -1.0d,
+	y: 4.0d,
+	description: "Craft an Item Barrel Connector",
+	text: [
+		"The Item Barrel Connector allows you to access the contents of any Item Barrel it is touching and any Barrels touching those, etc."
+	],
+	dependencies: [
+		"0825ffa1"
+	],
+	tasks: [{
+		uid: "f0607009",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}],
+	rewards: [{
+		uid: "ae6850df",
+		type: "random",
+		table: 0
+	}]
+}

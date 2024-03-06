@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Nickel",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "nickel",
+			Amount: 1000
+		}
+	},
+	x: -2.0d,
+	y: 5.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"ae5c0458",
+		"f28c5927"
+	],
+	tasks: [{
+		uid: "09e57d74",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "nickel"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f4f7b5bd",
+		type: "random",
+		table: 0
+	}]
+}

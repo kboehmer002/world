@@ -1,0 +1,13 @@
+{
+	title: "Fluid Cows",
+	icon: {
+		id: "fluidcows:cow_displayer",
+		tag: {
+			color: -1204473,
+			fluid: "copper"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

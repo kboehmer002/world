@@ -1,0 +1,25 @@
+{
+	title: "Think Tank",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Make a Brain in a Jar",
+	text: [
+		"The Brain in a Jar can store a limited amount of experience.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22c3a3d7"
+	],
+	tasks: [{
+		uid: "dad649bc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_brain"
+		}]
+	}],
+	rewards: [{
+		uid: "defb79a3",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Gold",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "gold",
+			Amount: 1000
+		}
+	},
+	x: 2.0d,
+	y: 1.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"de2f901e"
+	],
+	tasks: [{
+		uid: "408aa953",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "gold"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f66267f8",
+		type: "random",
+		table: 0
+	}]
+}

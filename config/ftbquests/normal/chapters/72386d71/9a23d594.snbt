@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	description: "Golden Singularity",
+	text: [
+		"Compress 11800 Blocks of Gold into an Golden Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "97a98bb4",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8d498fa2",
+		type: "random",
+		table: 0
+	}]
+}

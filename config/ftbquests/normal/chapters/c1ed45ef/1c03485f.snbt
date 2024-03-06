@@ -1,0 +1,38 @@
+{
+	title: "Fluid Cow: Gelid Cryotheum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "cryotheum",
+			Amount: 1000
+		}
+	},
+	x: -5.0d,
+	y: 11.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"51a15d03",
+		"41c9c167"
+	],
+	tasks: [{
+		uid: "2640e103",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "cryotheum"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "9b8780e6",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "Make a Wyvern Fusion Crafting Injector",
+	text: [
+		"The tier 2 injector is used for more advance recipes"
+	],
+	dependencies: [
+		"e4345afd"
+	],
+	tasks: [{
+		uid: "df356f03",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "90203598",
+		type: "random",
+		table: 0
+	}]
+}

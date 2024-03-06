@@ -1,0 +1,24 @@
+{
+	title: "iTransmute",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Make a Transmutation Tablet",
+	text: [
+		"The Transmutation Tablet functions identically to the Transmutation Table, but it is used as an item instead of a block."
+	],
+	dependencies: [
+		"07ae5b28"
+	],
+	tasks: [{
+		uid: "f10d94d1",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_transmutation_tablet"
+		}]
+	}],
+	rewards: [{
+		uid: "0825d865",
+		type: "random",
+		table: 0
+	}]
+}

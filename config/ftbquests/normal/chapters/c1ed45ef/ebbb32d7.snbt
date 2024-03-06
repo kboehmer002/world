@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Dark Steel",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dark_steel",
+			Amount: 1000
+		}
+	},
+	x: 6.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"Cow doesn't spawn naturally in the world, you will need to breed",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"9d77cbad",
+		"edda5e7d"
+	],
+	tasks: [{
+		uid: "4978af59",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "dark_steel"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f22effaa",
+		type: "random",
+		table: 0
+	}]
+}

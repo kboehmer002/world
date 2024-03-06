@@ -1,0 +1,25 @@
+{
+	title: "Master Farmhand",
+	x: -6.0d,
+	y: -7.0d,
+	description: "Make a Hoe of Growth",
+	text: [
+		"The Hoe of Growth hoes a 3x3 area, and can be used as Bone Meal at the cost of durability.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22a22076"
+	],
+	tasks: [{
+		uid: "2324bd64",
+		type: "item",
+		items: [{
+			item: "thaumcraft:elemental_hoe"
+		}]
+	}],
+	rewards: [{
+		uid: "ab3746e9",
+		type: "random",
+		table: 0
+	}]
+}

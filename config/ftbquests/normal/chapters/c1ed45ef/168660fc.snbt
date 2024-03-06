@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Enchanted Metal",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "xu_enchanted_metal",
+			Amount: 1000
+		}
+	},
+	x: 5.0d,
+	y: 1.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"87910247"
+	],
+	tasks: [{
+		uid: "9b635dea",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "xu_enchanted_metal"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "a12a5605",
+		type: "random",
+		table: 0
+	}]
+}

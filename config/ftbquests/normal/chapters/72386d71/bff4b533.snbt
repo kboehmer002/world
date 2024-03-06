@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	description: "Nickel Singularity",
+	text: [
+		"Compress 12600 Blocks of Nickel into an Nickel Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "d0a23323",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "0bd925d2",
+		type: "random",
+		table: 0
+	}]
+}

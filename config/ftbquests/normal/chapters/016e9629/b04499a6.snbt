@@ -1,0 +1,28 @@
+{
+	title: "The Be All",
+	x: 0.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "Make a Stabilized Mob Spawner",
+	text: [
+		"Right click a vanilla Mob Spawner with any Core to get a Stabilized one.",
+		"Higher tier Cores make better Stabilized Mob Spawners."
+	],
+	dependencies: [
+		"409b442a"
+	],
+	tasks: [{
+		uid: "df513295",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_spawner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05165163",
+		type: "random",
+		table: 0
+	}]
+}

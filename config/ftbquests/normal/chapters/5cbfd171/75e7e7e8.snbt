@@ -1,0 +1,26 @@
+{
+	title: "Lenses of Truth",
+	x: -2.0d,
+	y: -1.0d,
+	description: "Make Goggles of Revealing",
+	text: [
+		"Goggles of Revealing show you the amount of Vis in the area.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"5b1c7851"
+	],
+	tasks: [{
+		uid: "f1003836",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3bbd1d43",
+		type: "random",
+		table: 0
+	}]
+}

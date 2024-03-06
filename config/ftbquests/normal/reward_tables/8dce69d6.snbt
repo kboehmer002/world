@@ -1,0 +1,267 @@
+{
+	title: "Common",
+	loot_size: 2,
+	rewards: [{
+		item: "minecraft:leather",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:egg",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:wheat",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:apple",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:slime_ball",
+		weight: 3
+	},
+	{
+		item: "minecraft:porkchop",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:juiceritem",
+		weight: 3
+	},
+	{
+		item: "chancecubes:chance_cube",
+		count: 2
+	},
+	{
+		item: "cyclicmagic:ender_pearl_mounted",
+		weight: 3
+	},
+	{
+		item: "minecraft:carrot",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:beef",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "betterbuilderswands:wandstone",
+		weight: 3
+	},
+	{
+		item: "minecraft:web",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "minecraft:bone",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "tconstruct:materials",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "minecraft:sponge",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "minecraft:cake",
+		weight: 3
+	},
+	{
+		item: "minecraft:chicken",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "chickens:colored_egg 1 4"
+	},
+	{
+		item: "chickens:colored_egg 1 6"
+	},
+	{
+		item: "chickens:colored_egg 1 3"
+	},
+	{
+		item: "chickens:colored_egg 1 2"
+	},
+	{
+		item: "chickens:colored_egg 1 7"
+	},
+	{
+		item: "chickens:colored_egg 1 12"
+	},
+	{
+		item: "chickens:colored_egg 1 9"
+	},
+	{
+		item: "chickens:colored_egg 1 14"
+	},
+	{
+		item: "chickens:colored_egg 1 15"
+	},
+	{
+		item: "chickens:colored_egg"
+	},
+	{
+		item: "chickens:colored_egg 1 11"
+	},
+	{
+		item: "chickens:colored_egg 1 8"
+	},
+	{
+		item: "chickens:colored_egg 1 13"
+	},
+	{
+		item: "chickens:colored_egg 1 10"
+	},
+	{
+		item: "chickens:colored_egg 1 5"
+	},
+	{
+		item: "chickens:colored_egg 1 1"
+	},
+	{
+		item: "minecraft:name_tag",
+		weight: 3
+	},
+	{
+		item: "minecraft:fish",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:sugar",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:fish 1 2",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: {
+			id: "cyclicmagic:cyclic_wand_build",
+			tag: {}
+		},
+		weight: 3
+	},
+	{
+		item: "minecraft:brown_mushroom",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "minecraft:red_mushroom",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: {
+			id: "chesttransporter:chesttransporter",
+			tag: {}
+		},
+		weight: 3
+	},
+	{
+		item: "minecraft:potato",
+		count: 5,
+		weight: 3
+	},
+	{
+		item: "minecraft:pumpkin_seeds",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:record_cat",
+		weight: 3
+	},
+	{
+		item: "storagedrawers:upgrade_template",
+		count: 5,
+		weight: 2
+	},
+	{
+		item: "minecraft:fish 1 1",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:prismarine_shard",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "fluidcows:cow_halter",
+		weight: 3
+	},
+	{
+		item: "botania:manabottle",
+		weight: 3
+	},
+	{
+		item: "storagedrawers:tape",
+		weight: 3
+	},
+	{
+		item: "darkutils:timer"
+	},
+	{
+		item: "excompressum:bait",
+		weight: 3
+	},
+	{
+		item: "excompressum:bait 1 1",
+		weight: 3
+	},
+	{
+		item: "excompressum:bait 1 2",
+		weight: 3
+	},
+	{
+		item: "excompressum:bait 1 3",
+		weight: 3
+	},
+	{
+		item: "excompressum:bait 1 6",
+		weight: 3
+	},
+	{
+		item: "excompressum:bait 1 7",
+		weight: 3
+	},
+	{
+		item: "tp:bams_pizza",
+		count: 4,
+		weight: 3
+	}],
+	loot_crate: {
+		string_id: "common",
+		item_name: "Common Loot Crate",
+		color: 9607578,
+		drops: {
+			boss: 0,
+			passive: 250,
+			monster: 500
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Invar",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "invar",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
+	y: 5.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"8a34027c",
+		"de0f65d3"
+	],
+	tasks: [{
+		uid: "524881fe",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "invar"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6712fba2",
+		type: "random",
+		table: 0
+	}]
+}

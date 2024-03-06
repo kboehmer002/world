@@ -1,0 +1,40 @@
+{
+	title: "Ranching",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Chicken: "minecraft:chicken"
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "heart",
+	description: "Catch a Chicken",
+	text: [
+		"Use a Chicken Catcher to turn a Chicken from a mob to an item."
+	],
+	tasks: [{
+		uid: "090068df",
+		type: "item",
+		items: [{
+			item: "roost:catcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9530a5d",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Chicken: "minecraft:chicken"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c62a5955",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"This book holds the key to all of thumcraft research.",
+		"Must unlock infusion in order to see recipe in JEI."
+	],
+	tasks: [{
+		uid: "f042edf8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "6bcfd0d7",
+		type: "command",
+		title: "Give player all research",
+		icon: "thaumcraft:enchanted_placeholder",
+		command: "/thaumcraft research @p all"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Fluid Cow: Zephyrean Aerotheum",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "aerotheum",
+			Amount: 1000
+		}
+	},
+	x: 11.0d,
+	y: 6.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"51a15d03",
+		"87910247"
+	],
+	tasks: [{
+		uid: "97da729c",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "aerotheum"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7f0234cb",
+		type: "random",
+		table: 0
+	}]
+}

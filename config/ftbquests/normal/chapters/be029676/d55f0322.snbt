@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: -2.0d,
+	description: "Black Hole Tank",
+	text: [
+		"It can hold up to 2,147,483,647mb of one fluid"
+	],
+	tasks: [{
+		uid: "5ec71749",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "1ee1249b",
+		type: "random",
+		table: 0
+	}]
+}

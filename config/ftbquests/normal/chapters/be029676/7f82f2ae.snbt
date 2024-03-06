@@ -1,0 +1,26 @@
+{
+	title: "Firewall",
+	x: 3.0d,
+	y: -4.0d,
+	description: "Make an ME Security Terminal",
+	text: [
+		"Allows you to configure which users, and what permissions the users have with the ME System. While connected, it enforces permissions on the usage of the system.",
+		"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives.",
+		"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
+	],
+	dependencies: [
+		"57b9cbec"
+	],
+	tasks: [{
+		uid: "c8e2e328",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "a6ef0ac0",
+		type: "random",
+		table: 0
+	}]
+}

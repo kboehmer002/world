@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "Collect from a Chicken",
+	text: [
+		"The Roost Collector will collect items from Roosts in a 9x9 area surrounded on itself, up to two blocks higher than itself."
+	],
+	dependencies: [
+		"ab973699"
+	],
+	tasks: [{
+		uid: "2862dc54",
+		type: "item",
+		items: [{
+			item: "roost:collector"
+		}]
+	}],
+	rewards: [{
+		uid: "92bbc07b",
+		type: "random",
+		table: 0
+	}]
+}

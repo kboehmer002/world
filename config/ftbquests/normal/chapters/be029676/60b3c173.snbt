@@ -1,0 +1,23 @@
+{
+	x: 17.0d,
+	y: -4.0d,
+	description: "Black Hole Controller",
+	text: [
+		"It can hold 9 Black Hole Units and access its items"
+	],
+	dependencies: [
+		"114b4f06"
+	],
+	tasks: [{
+		uid: "82140b1b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "5a83fae5",
+		type: "random",
+		table: 0
+	}]
+}

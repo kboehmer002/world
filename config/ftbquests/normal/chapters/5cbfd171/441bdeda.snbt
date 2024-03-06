@@ -1,0 +1,26 @@
+{
+	title: "Thaumoninomicon",
+	x: 0.0d,
+	y: -3.0d,
+	description: "Make a Thaumonomicon",
+	text: [
+		"Use Salis Mundus on a Bookshelf to get the Thaumonomicon"
+	],
+	dependencies: [
+		"dfde543f"
+	],
+	tasks: [{
+		uid: "2e1dd6b6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa2b02db",
+		type: "random",
+		table: 0
+	}]
+}

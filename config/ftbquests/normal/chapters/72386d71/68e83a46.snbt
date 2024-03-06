@@ -1,0 +1,18 @@
+{
+	icon: "avaritia:extreme_crafting_table",
+	x: 0.0d,
+	y: -8.0d,
+	description: "9x9 Crafting Table.. Interesting",
+	tasks: [{
+		uid: "8db08f1d",
+		type: "item",
+		items: [{
+			item: "avaritia:extreme_crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "5c037e28",
+		type: "random",
+		table: 0
+	}]
+}

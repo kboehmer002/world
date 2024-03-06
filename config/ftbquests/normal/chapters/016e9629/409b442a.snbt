@@ -1,0 +1,24 @@
+{
+	title: "The End All",
+	x: 0.0d,
+	y: -2.0d,
+	description: "Make a Mob Grinder",
+	text: [
+		"The Mob Grinder will instantly kill all mobs in a 7x7 area in front of it."
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "e6f4e5a2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "5de9d05d",
+		type: "random",
+		table: 0
+	}]
+}

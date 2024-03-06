@@ -1,0 +1,24 @@
+{
+	title: "Balanced",
+	x: -5.0d,
+	y: -20.0d,
+	description: "Make some Clay",
+	text: [
+		"You can make Clay by putting Dust into a Crucible full of Water."
+	],
+	dependencies: [
+		"9663ee4f"
+	],
+	tasks: [{
+		uid: "ed9e7398",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}]
+	}],
+	rewards: [{
+		uid: "bca2a2bf",
+		type: "random",
+		table: 0
+	}]
+}

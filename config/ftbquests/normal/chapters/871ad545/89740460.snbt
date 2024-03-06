@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	description: "Make a Colossal Star Ein",
+	dependencies: [
+		"aa703e0a"
+	],
+	tasks: [{
+		uid: "21b678d5",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_ein",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64e37975",
+		type: "random",
+		table: 0
+	}]
+}

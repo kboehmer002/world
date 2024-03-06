@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Stellar Alloy",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "stellar_alloy",
+			Amount: 1000
+		}
+	},
+	x: 6.0d,
+	y: 12.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"4c87687f",
+		"3ece1a3b"
+	],
+	tasks: [{
+		uid: "075cd2d4",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "stellar_alloy"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7531bee6",
+		type: "random",
+		table: 0
+	}]
+}

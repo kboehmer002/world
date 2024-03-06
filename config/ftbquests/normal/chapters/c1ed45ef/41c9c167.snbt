@@ -1,0 +1,24 @@
+{
+	title: "Fluid Cow: Water",
+	icon: "minecraft:water_bucket",
+	x: -3.0d,
+	y: -7.0d,
+	text: [
+		"Get this cow by crafting the corresponding Cow Displayer."
+	],
+	tasks: [{
+		uid: "5011e4f2",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_displayer",
+			tag: {
+				fluid: "water"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b36e9b1c",
+		type: "random",
+		table: 0
+	}]
+}

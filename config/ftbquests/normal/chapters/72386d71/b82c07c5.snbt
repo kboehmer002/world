@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	description: "Lapis Singularity",
+	text: [
+		"Compress 11800 Lapis Lazuli Blocks into an Lapis Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "1e6b633c",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "daa1d7a9",
+		type: "random",
+		table: 0
+	}]
+}

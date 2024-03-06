@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 8.0d,
+	description: "Make a Colossal Star Sphere",
+	dependencies: [
+		"eb3d665b"
+	],
+	tasks: [{
+		uid: "825604ab",
+		type: "item",
+		items: [{
+			id: "projectex:colossal_star_sphere",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b70da7c",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	description: "Make a Magnum Star Ein",
+	dependencies: [
+		"8613fcf5"
+	],
+	tasks: [{
+		uid: "8bb4ea2d",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_ein",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f0ca297",
+		type: "random",
+		table: 0
+	}]
+}

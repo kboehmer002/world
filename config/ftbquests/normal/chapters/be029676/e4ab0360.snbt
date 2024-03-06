@@ -1,0 +1,23 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	description: "Make a Large Storage Crate",
+	text: [
+		"The Medium Storage Crate has 351 item slots. Click the arrow button to switch between the pages to see the other slots."
+	],
+	dependencies: [
+		"27210f19"
+	],
+	tasks: [{
+		uid: "9ca115a8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "9767c08f",
+		type: "random",
+		table: 0
+	}]
+}

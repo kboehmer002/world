@@ -1,0 +1,25 @@
+{
+	title: "Chest+",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Make an Alchemical Chest",
+	text: [
+		"The Alchemical Chest has 104 item slots, the equivalent of 4 chests.",
+		"You can insert certain ProjectE items to perform specific functions."
+	],
+	dependencies: [
+		"1989f745"
+	],
+	tasks: [{
+		uid: "5db21bb7",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "e38ef2b4",
+		type: "random",
+		table: 0
+	}]
+}

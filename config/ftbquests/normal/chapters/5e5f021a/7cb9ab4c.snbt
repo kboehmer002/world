@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:wither_skeleton"
+		},
+		Damage: 37s
+	},
+	x: -3.0d,
+	y: -23.0d,
+	description: "Kill a Wither Skeleton",
+	text: [
+		"Spawn a Wither Skeleton by dunking a Skeleton in Witch Water."
+	],
+	dependencies: [
+		"ddd34616"
+	],
+	tasks: [{
+		uid: "def48937",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wither_skeleton"
+				}
+			}
+		},
+		entity: "minecraft:wither_skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "42de24ab",
+		type: "random",
+		table: 0
+	}]
+}

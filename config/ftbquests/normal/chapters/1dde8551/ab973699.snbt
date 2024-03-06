@@ -1,0 +1,26 @@
+{
+	title: "Hen House",
+	icon: "roost:roost",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Store a Chicken",
+	text: [
+		"Roosts allow you to compactly farm Chickens. Place up to 16 Chickens into the Roost and it will generate its drops over time.",
+		"Having multiple of a specific chicken in the slot increases the speed."
+	],
+	dependencies: [
+		"b0a6af08"
+	],
+	tasks: [{
+		uid: "fcb5eb9a",
+		type: "item",
+		items: [{
+			item: "roost:roost"
+		}]
+	}],
+	rewards: [{
+		uid: "ea1c6738",
+		type: "random",
+		table: 0
+	}]
+}

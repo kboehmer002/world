@@ -1,0 +1,34 @@
+{
+	title: "Dyson Sphere",
+	icon: "draconicevolution:energy_storage_core",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Make a Tier 1 Energy Core",
+	text: [
+		"The Energy Core is a multiblock with 8 tiers, each holding exponentially more than the last.",
+		"Consult the Draconic Evolution Information Tablet for information on how to construct the multiblock."
+	],
+	dependencies: [
+		"4515a64b"
+	],
+	tasks: [{
+		uid: "17238532",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "284d54ec",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7cf1692f",
+		type: "random",
+		table: 0
+	}]
+}

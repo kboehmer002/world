@@ -1,0 +1,36 @@
+{
+	title: "Leviathan Axe",
+	x: -6.0d,
+	y: -6.0d,
+	description: "Make an Axe of the Stream",
+	text: [
+		"The Axe of the Stream will break the furthest Wood block within a tree and will suck in the drops. Right click to suck in all items.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"22a22076"
+	],
+	tasks: [{
+		uid: "70b6fde3",
+		type: "item",
+		items: [{
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9889fc10",
+		type: "random",
+		table: 0
+	}]
+}

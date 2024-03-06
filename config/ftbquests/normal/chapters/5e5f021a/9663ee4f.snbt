@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: -21.0d,
+	description: "Make a Crucible",
+	text: [
+		"Wooden Crucibles are used to transform plant matter into Water."
+	],
+	dependencies: [
+		"0036066c"
+	],
+	tasks: [{
+		uid: "98384c6c",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d3f0109",
+		type: "random",
+		table: 0
+	}]
+}

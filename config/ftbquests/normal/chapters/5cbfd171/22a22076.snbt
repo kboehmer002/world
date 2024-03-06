@@ -1,0 +1,41 @@
+{
+	title: "Fuuuuuusion Ha!",
+	icon: "thaumcraft:infusion_matrix",
+	x: -4.0d,
+	y: -5.0d,
+	description: "Make an Infusion Altar",
+	text: [
+		"The Infusion Altar uses Essentia to create items. Try to maximize the stability to avoid negative side effects!",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"5b1c7851"
+	],
+	tasks: [{
+		uid: "290e448d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "d228df2f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b49aa33d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "0b924537",
+		type: "random",
+		table: 0
+	}]
+}

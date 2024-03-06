@@ -1,0 +1,21 @@
+{
+	title: "Ranching",
+	x: 0.0d,
+	y: -8.0d,
+	description: "Make a Cow Stall",
+	text: [
+		"Place the cows in the Cow Stall by using a filled Cow Halter on it. It auto harvests the fluid from the cow which can be removed with a bucket or with pipes. "
+	],
+	tasks: [{
+		uid: "d6553758",
+		type: "item",
+		items: [{
+			item: "fluidcows:stall"
+		}]
+	}],
+	rewards: [{
+		uid: "ee34e47c",
+		type: "random",
+		table: 0
+	}]
+}

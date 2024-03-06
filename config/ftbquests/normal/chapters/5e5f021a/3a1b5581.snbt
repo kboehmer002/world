@@ -1,0 +1,28 @@
+{
+	title: "Crooked",
+	icon: "stoneblockutilities:crook_stone",
+	x: -13.0d,
+	y: -21.0d,
+	description: "Craft a Stone Crook",
+	text: [
+		"The Stone Crook can be used on Dirt to get any vanilla sapling.",
+		"You can rapidly sneak to speed up the growth of nearby crops."
+	],
+	dependencies: [
+		"9a94140d"
+	],
+	tasks: [{
+		uid: "af1047da",
+		type: "item",
+		items: [{
+			item: "stoneblockutilities:crook_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb23bad0",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Computer Literate",
+	x: -5.0d,
+	y: -6.0d,
+	description: "Craft an Inscriber",
+	text: [
+		"The Inscriber is used to make Processors."
+	],
+	dependencies: [
+		"a30e5a18"
+	],
+	tasks: [{
+		uid: "fe77ffed",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "4f78ce6e",
+		type: "random",
+		table: 0
+	}]
+}

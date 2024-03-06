@@ -1,0 +1,35 @@
+{
+	title: "Master Tinkerer",
+	x: -9.0d,
+	y: -19.0d,
+	description: "Make a Tool Forge",
+	text: [
+		"The Tool Forge allows you to make even more Tinkers' Construct tools."
+	],
+	dependencies: [
+		"ccdf6dbf",
+		"253ac572"
+	],
+	tasks: [{
+		uid: "71bfa4e2",
+		type: "item",
+		title: "Any Tool Forge",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b49fe4c",
+		type: "random",
+		table: 0
+	}]
+}

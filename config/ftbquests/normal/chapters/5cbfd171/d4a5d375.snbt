@@ -1,0 +1,25 @@
+{
+	title: "Advanced Spelling",
+	x: -1.0d,
+	y: -11.0d,
+	description: "Make a Blank Advanced Focus",
+	text: [
+		"The Advanced Focus can store more complex and powerful spells.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"a7e19aef"
+	],
+	tasks: [{
+		uid: "d2232c17",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_2"
+		}]
+	}],
+	rewards: [{
+		uid: "c31b924d",
+		type: "random",
+		table: 0
+	}]
+}

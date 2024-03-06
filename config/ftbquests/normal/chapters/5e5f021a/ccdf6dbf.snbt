@@ -1,0 +1,76 @@
+{
+	title: "Tinkering",
+	icon: {
+		id: "tconstruct:tooltables",
+		tag: {
+			textureBlock: {
+				id: "minecraft:log",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		Damage: 2s
+	},
+	x: -11.0d,
+	y: -19.0d,
+	description: "Make the Tinker's Stations",
+	text: [
+		"Tinkers' Construct tools can be repaired and upgraded with materials."
+	],
+	dependencies: [
+		"0036066c"
+	],
+	tasks: [{
+		uid: "2b9b5a6a",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90186aa5",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6609a731",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0bb74883",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46d02e85",
+		type: "random",
+		table: 0
+	}]
+}

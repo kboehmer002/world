@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	shape: "circle",
+	text: [
+		"You must craft this chicken's egg to spawn it."
+	],
+	tasks: [{
+		uid: "31052a79",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Chicken: "chickens:redchicken"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "2a40e376",
+		type: "random",
+		table: 0
+	}]
+}

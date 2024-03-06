@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	description: "Make a Lamp of Growth",
+	text: [
+		"The Lamp of Growth accelerates the speed crops grow at in an area when it is fed Herba essentia.",
+		"Consult the Thaumonomicon for instructions on how to make."
+	],
+	dependencies: [
+		"75e7e7e8"
+	],
+	tasks: [{
+		uid: "528e61d6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}],
+	rewards: [{
+		uid: "b588dd6b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Fluid Crafting",
+	x: -3.0d,
+	y: -19.0d,
+	description: "Make a Stone Barrel",
+	text: [
+		"The Stone Barrel holds Fluids so you can use them to create other items and fluids."
+	],
+	dependencies: [
+		"c28d6190"
+	],
+	tasks: [{
+		uid: "dab445fc",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel1"
+		}]
+	}],
+	rewards: [{
+		uid: "517371b5",
+		type: "random",
+		table: 0
+	}]
+}

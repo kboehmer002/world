@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	description: "Make a Magnum Star Omega",
+	dependencies: [
+		"f8f03a24"
+	],
+	tasks: [{
+		uid: "cc7101fc",
+		type: "item",
+		items: [{
+			id: "projectex:magnum_star_omega",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a94cdbf1",
+		type: "random",
+		table: 0
+	}]
+}

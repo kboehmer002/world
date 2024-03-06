@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	description: "Silver Singularity",
+	text: [
+		"Compress 12200 Blocks of Silver into an Silver Singularity"
+	],
+	dependencies: [
+		"4f0cd8a4"
+	],
+	tasks: [{
+		uid: "fbf6b2e8",
+		type: "item",
+		items: [{
+			item: "avaritia:singularity 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "dfa039ca",
+		type: "random",
+		table: 0
+	}]
+}

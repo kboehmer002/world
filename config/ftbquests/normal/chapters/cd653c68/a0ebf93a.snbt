@@ -1,0 +1,16 @@
+{
+	x: -11.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "ca348f26",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "5ccbb4e1",
+		type: "random",
+		table: 0
+	}]
+}

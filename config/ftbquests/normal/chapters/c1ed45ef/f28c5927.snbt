@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Lead",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "lead",
+			Amount: 1000
+		}
+	},
+	x: -1.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"de0f65d3",
+		"973bce81"
+	],
+	tasks: [{
+		uid: "84c028d4",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "lead"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7b6dae62",
+		type: "random",
+		table: 0
+	}]
+}

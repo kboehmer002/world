@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -16.0d,
+	description: "Craft a Cobblestone Generator Tier 4",
+	text: [
+		"The Cobblestone Generator Tier 4 makes 4 Cobblestone every second."
+	],
+	dependencies: [
+		"94d0afd1"
+	],
+	tasks: [{
+		uid: "f6c55c25",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "88931641",
+		type: "random",
+		table: 0
+	}]
+}

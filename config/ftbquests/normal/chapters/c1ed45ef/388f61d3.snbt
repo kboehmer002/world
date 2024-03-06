@@ -1,0 +1,37 @@
+{
+	title: "Fluid Cow: Molten Lumium Bucket",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "lumium",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: 6.0d,
+	shape: "circle",
+	text: [
+		"This cow can't be crafted. You have to breed it from other cows.",
+		"For the task to be completed, pick up the cow with a Cow Halter."
+	],
+	dependencies: [
+		"ae5c0458",
+		"022cd99e"
+	],
+	tasks: [{
+		uid: "8afe3beb",
+		type: "item",
+		items: [{
+			id: "fluidcows:cow_halter",
+			tag: {
+				t_fluid: "lumium"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1af0eeb0",
+		type: "random",
+		table: 0
+	}]
+}

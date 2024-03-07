@@ -1,0 +1,718 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Spencer Gilbert
+Ivy_
+Genryu
+Ncc1702
+AdaraChristine
+NickT
+Zuniroa
+Peregrinus11
+BrÃƒÂ¸nsted
+Belathus
+Quaternary
+Jordan Pineo
+DreamThorn
+NerdyWhiteGuy
+Hooley
+KoTeÅ­Ka
+Phillip Swearingain
+Jessie Sims
+Pongo Sapiens
+Jonathan McManus
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 00_oreDict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ActuallyAdditions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: AngelRing2Bauble.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: AppliedEnergistics2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Avaritia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: betterbuilderswands.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: BuildCraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Ceramics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Chickens.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Chisel.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: chiselandbits.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:contenttweaker]: clay.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Cyclic.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: EnderIO.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExCompressum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExNihiloCreatio.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExtraUtilities2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: FluidCows.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Flux.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: framland.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: FTBQuests.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ImmersiveEngineering.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: IronBackPacks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: JEI.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTables.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MaslisisDoors.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Mekanism.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: microblocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MysticalAgradditions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: OpenBlocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: PamsHarvestcraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: petrock.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectE.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectEX.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectRed.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: QuantumFlux.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: RandomThings.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thaumcraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thermal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tinkers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TinyProgressions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Translocators.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 00_oreDict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ActuallyAdditions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: AngelRing2Bauble.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: AppliedEnergistics2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Avaritia.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: betterbuilderswands.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: BuildCraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Ceramics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Chickens.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Chisel.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: chiselandbits.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Loading Script: {[0:contenttweaker]: clay.zs}
+[PREINITIALIZATION][SERVER][INFO] Initializing 'clay.zs'...
+[PREINITIALIZATION][SERVER][INFO] Initialized 'clay.zs'
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Cyclic.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: EnderIO.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExCompressum.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExNihiloCreatio.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExtraUtilities2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: FluidCows.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Flux.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: framland.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: FTBQuests.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ImmersiveEngineering.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: IronBackPacks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: JEI.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTables.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MaslisisDoors.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Mekanism.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: microblocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Minecraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MysticalAgradditions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: OpenBlocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: PamsHarvestcraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: petrock.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectE.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectEX.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ProjectRed.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: QuantumFlux.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: RandomThings.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thaumcraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thermal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tinkers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TinyProgressions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Translocators.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 163ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: 00_oreDict.zs}
+[INITIALIZATION][SERVER][INFO] Initializing '00_oreDict.zs'...
+[INITIALIZATION][SERVER][INFO] Removing Wooden Hoe from ore dictionary entry toolHoe
+[INITIALIZATION][SERVER][INFO] Removing Iron Hoe from ore dictionary entry toolHoe
+[INITIALIZATION][SERVER][INFO] Removing Stone Hoe from ore dictionary entry toolHoe
+[INITIALIZATION][SERVER][INFO] Removing Diamond Hoe from ore dictionary entry toolHoe
+[INITIALIZATION][SERVER][INFO] Removing Golden Hoe from ore dictionary entry toolHoe
+[INITIALIZATION][SERVER][INFO] Adding Block of Coal Coke to ore dictionary entry blockCoalCoke
+[INITIALIZATION][SERVER][INFO] Removing item.microblockcbe:stone_rod.name from ore dictionary entry rodStone
+[INITIALIZATION][SERVER][INFO] Adding Lava Bucket to ore dictionary entry listAlllava
+[INITIALIZATION][SERVER][INFO] Adding Lava Egg to ore dictionary entry listAlllava
+[INITIALIZATION][SERVER][INFO] Adding Water Egg to ore dictionary entry listAllwater
+[INITIALIZATION][SERVER][INFO] Adding Dragon Scale to ore dictionary entry dragonScale
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Oak Wood Planks to ore dictionary entry oakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Acacia Wood Planks to ore dictionary entry acaciaPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Birch Wood Planks to ore dictionary entry birchPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Wood Planks to ore dictionary entry darkOakPlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Jungle Wood Planks to ore dictionary entry junglePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Adding Spruce Wood Planks to ore dictionary entry sprucePlanks
+[INITIALIZATION][SERVER][INFO] Initialized '00_oreDict.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ActuallyAdditions.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ActuallyAdditions.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <actuallyadditions:item_bag>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Initialized 'ActuallyAdditions.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: AngelRing2Bauble.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'AngelRing2Bauble.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'AngelRing2Bauble.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: AppliedEnergistics2.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'AppliedEnergistics2.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'AppliedEnergistics2.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Avaritia.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Avaritia.zs'...
+[INITIALIZATION][SERVER][INFO] Removing Extreme Recipe from Avaritia with the output of: Ultimate Stew
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe minecraft:craft_tweaker/extreme/shapeless/ultimate_stew for Ultimate Stew
+[INITIALIZATION][SERVER][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Helmet
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_infinity_helmet for Infinity Helmet
+[INITIALIZATION][SERVER][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Breastplate
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_infinity_chestplate for Infinity Breastplate
+[INITIALIZATION][SERVER][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Leggings
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_infinity_pants for Infinity Leggings
+[INITIALIZATION][SERVER][INFO] Removing Extreme Recipe from Avaritia with the output of: Infinity Boots
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_infinity_boots for Infinity Boots
+[INITIALIZATION][SERVER][INFO] Initialized 'Avaritia.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: betterbuilderswands.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'betterbuilderswands.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'betterbuilderswands.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: BuildCraft.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'BuildCraft.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'BuildCraft.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Ceramics.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Ceramics.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Ceramics.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Chickens.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Chickens.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Chickens.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Chisel.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Chisel.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Chisel.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: chiselandbits.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ChiselandBits.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'ChiselandBits.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: clay.zs} as we are currently loading with a different loader
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Cyclic.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Cyclic.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Cyclic.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: EnderIO.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'EnderIO.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'EnderIO.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ExCompressum.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ExCompressum.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'ExCompressum.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ExNihiloCreatio.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ExNihiloCreatio.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'ExNihiloCreatio.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ExtraUtilities2.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ExtraUtilies2.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:bagofholding>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Initialized 'ExtraUtilies2.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: FluidCows.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Flux.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Flux.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Flux.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: framland.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'framland.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'framland.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: FTBQuests.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'FTBQuests.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:chest>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Initialized 'FTBQuests.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ImmersiveEngineering.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ImmersiveEngineering.zs'...
+[INITIALIZATION][SERVER][INFO] Removing Coke Oven Recipe for Coal Coke
+[INITIALIZATION][SERVER][INFO] Removing Coke Oven Recipe for Block of Coal Coke
+[INITIALIZATION][SERVER][INFO] Adding Coke Oven Recipe for Coal Coke
+[INITIALIZATION][SERVER][INFO] Adding Coke Oven Recipe for Block of Coal Coke
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Dust
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Diamond
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Diamond
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Diamond
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Diamond
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Iron Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Iron Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Iron Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Iron Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Gold Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Gold Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Gold Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Gold Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Steel Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Steel Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Steel Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Steel Grit
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Leather
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Leather
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Leather
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Leather
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Diamond
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Pulverized Iron
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Pulverized Gold
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Leather
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Nether Brick
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Brick
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Crushed Netherrack
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Crushed Endstone
+[INITIALIZATION][SERVER][INFO] Initialized 'ImmersiveEngineering.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: IronBackPacks.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}): "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ironbackpacks:upgrade>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: JEI.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'JEI.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'JEI.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: LootTables.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'LootTables.zs'...
+[INITIALIZATION][SERVER][INFO] Queued pool dragonEgg for addition to table mightyenderchicken:ender_chicken
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'dragonEgg' of table 'mightyenderchicken:ender_chicken'
+[INITIALIZATION][SERVER][INFO] Queued pool dragonHeart for addition to table mightyenderchicken:ender_chicken
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'dragonHeart' of table 'mightyenderchicken:ender_chicken'
+[INITIALIZATION][SERVER][INFO] Queued pool dragonScale for addition to table mightyenderchicken:ender_chicken
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'dragonScale' of table 'mightyenderchicken:ender_chicken'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'dragonScale' of table 'mightyenderchicken:ender_chicken'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'dragonScale' of table 'mightyenderchicken:ender_chicken'
+[INITIALIZATION][SERVER][INFO] Queued pool dragonHeart for addition to table mightyenderchicken:chaos_chicken
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'dragonHeart' of table 'mightyenderchicken:chaos_chicken'
+[INITIALIZATION][SERVER][INFO] Queued pool chaosShard for addition to table mightyenderchicken:chaos_chicken
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'chaosShard' of table 'mightyenderchicken:chaos_chicken'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'chaosShard' of table 'mightyenderchicken:chaos_chicken'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'chaosShard' of table 'mightyenderchicken:chaos_chicken'
+[INITIALIZATION][SERVER][INFO] Initialized 'LootTables.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: MaslisisDoors.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'MaslisisDoors.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'MaslisisDoors.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Mekanism.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Mekanism.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Mekanism.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: microblocks.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Mircoblocks.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Mircoblocks.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Minecraft.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Minecraft.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Minecraft.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: MysticalAgradditions.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'MysticalAgradditions.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'MysticalAgradditions.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: OpenBlocks.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'OpenBlocks.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'OpenBlocks.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: PamsHarvestcraft.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'PamsHarvestcraft.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'PamsHarvestcraft.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: petrock.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'petrock.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'petrock.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ProjectE.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ProjectE.zs'...
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_transmutationtable for Transmutation Table
+[INITIALIZATION][SERVER][INFO] Adding Extreme recipe avaritia:craft_tweaker_shaped_transmutationtablet for Transmutation Tablet
+[INITIALIZATION][SERVER][INFO] Initialized 'ProjectE.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ProjectEX.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ProjectEX.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'ProjectEX.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ProjectRed.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'ProjectRed.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'ProjectRed.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: QuantumFlux.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'QuantumFlux.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <quantumflux:magnet>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Initialized 'QuantumFlux.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: RandomThings.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'RandomThings.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'RandomThings.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thaumcraft.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Thaumcraft.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Thaumcraft.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thermal.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Thermal.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Thermal.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Tinkers.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Tinkers.zs'...
+[INITIALIZATION][SERVER][INFO] Altering Melting Recipe(s) for <liquid:redstone>
+[INITIALIZATION][SERVER][INFO] Initialized 'Tinkers.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: TinyProgressions.zs}
+[INITIALIZATION][SERVER][INFO] Initialized 'TinyProgressions.zs'
+[INITIALIZATION][SERVER][INFO] Initialized 'TinyProgressions.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Tooltip.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Tooltip.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <torchmaster:mega_torch>: "Stops Mob Spawns in a"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <torchmaster:mega_torch>: "64 Block Radius"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:material:13>: "Can be crafted"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:material:14>: "Can be crafted"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:material:15>: "Can be crafted"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:material:19>: "Can be crafted"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <appliedenergistics2:facade>: "Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_sieve>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:5>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:5>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:4>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:4>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:3>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:3>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:2>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:2>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:1>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve:1>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve>: "Requires a Mesh"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:heavy_sieve>: "Only sieves compressed blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:compressed_hammer_wood>: "Hammers Compressed Blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:compressed_hammer_stone>: "Hammers Compressed Blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:compressed_hammer_iron>: "Hammers Compressed Blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:compressed_hammer_gold>: "Hammers Compressed Blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <excompressum:compressed_hammer_diamond>: "Hammers Compressed Blocks"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_crucible:1>: "Following makes lava"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_crucible:1>: "Cobblestone"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_crucible:1>: "Granite"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_crucible:1>: "Diorite"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <exnihilocreatio:block_crucible:1>: "Andesite"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <minecraft:mob_spawner>: "Entity type can be changed with Spawner Changer"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <minecraft:mob_spawner>: "Or by being broken and combined with Soul Vial in a Soul Binder"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <petrock:stoneium>: "Used to tame a petrock"
+[INITIALIZATION][SERVER][INFO] Initialized 'Tooltip.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Translocators.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'Translocators.zs'...
+[INITIALIZATION][SERVER][INFO] Initialized 'Translocators.zs'
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 350ms
+[POSTINITIALIZATION][SERVER][INFO] Removing Grinder Entry for Wheat
+[POSTINITIALIZATION][SERVER][INFO] Adding Grinder Entry for Wheat
+[POSTINITIALIZATION][SERVER][INFO] Adding Grinder Entry for Black Quartz Ore
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <actuallyadditions:item_dust:4> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <actuallyadditions:item_dust:3> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <actuallyadditions:item_dust:7> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "actuallyadditions:recipes25"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "flyringbaublemod:flyring1a"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "flyringbaublemod:flyring1c"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "flyringbaublemod:flyring1b"
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <appliedenergistics2:material:3> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "excompressum:compressed_cobblestone_unpack"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "excompressum:compressed_gravel_unpack"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "excompressum:compressed_sand_unpack"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "excompressum:compressed_dirt_unpack"
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <extrautils2:ingredients> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <mekanism:otherdust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thermalfoundation:paper"
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <harvestcraft:cottonitem>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <translocators:diamond_nugget> * 9
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dough with name ct_shaped5368241
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Obsidian AIOT with name ct_shapeless2042504949
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rice Slimeball with name ct_shaped-1472140902
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cable Facade - Glass with name ct_shaped138365123
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Wand with name ct_shaped-416283329
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Wand with name ct_shaped600916725
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.markerConnector.name with name ct_shaped483345678
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Henhouse with name ct_shaped297028431
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ink Black Chicken Egg with name ct_shaped-804546029
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Red Chicken Egg with name ct_shaped-653031542
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cactus Green Chicken Egg with name ct_shaped174781707
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cocoa Brown Chicken Egg with name ct_shaped780741516
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lapis Blue Chicken Egg with name ct_shaped-260194035
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Purple Chicken Egg with name ct_shaped1750086030
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cyan Chicken Egg with name ct_shaped1336099855
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Light Gray Chicken Egg with name ct_shaped1611186576
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gray Chicken Egg with name ct_shaped1944653585
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pink Chicken Egg with name ct_shaped696540306
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lime Chicken Egg with name ct_shaped851262122
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Yellow Chicken Egg with name ct_shaped780658987
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Light Blue Chicken Egg with name ct_shaped-1080106068
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magenta Chicken Egg with name ct_shaped1572047661
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Orange Chicken Egg with name ct_shaped-1999330386
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bone White Chicken Egg with name ct_shaped1141402927
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Flint Chicken with name ct_shaped505941503
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sand Chicken with name ct_shaped107958070
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Log Chicken with name ct_shaped1066454298
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soul Sand Chicken with name ct_shaped-1864207767
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Quartz Chicken with name ct_shaped-940026739
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Basalt with name ct_shaped-152190150
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Limestone with name ct_shaped990994730
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Marble with name ct_shaped2146054392
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Wrench with name ct_shaped1624765093
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cow Bait with name ct_shaped-1168783770
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Polar Bear Bait with name ct_shapeless-1075534611
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Llama Bait with name ct_shapeless1359722227
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Parrot Bait with name ct_shapeless-234644304
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Hammer with name ct_shaped-1084252291
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Hammer with name ct_shaped1358772447
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Axle with name ct_shaped32667526
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magical Snow Globe with name ct_shaped-86337828
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Sun Crystal with name ct_shapeless1797652880
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Fluid Cow: Lava with name ct_shaped793697225
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Fluid Cow: Water with name ct_shaped-1106536689
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Fluid Cow: Milk with name ct_shaped1950764095
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Fluid Cow: Seared Stone with name ct_shaped87829563
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Thunder Hoe with name ct_shaped-778298682
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Structural Arm with name ct_shaped-588554053
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Aluminium Structural Arm with name ct_shaped271635954
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Engineer's Blueprint with name ct_shaped425182788
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Engineer's Blueprint with name ct_shaped393854870
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Engineer's Blueprint with name ct_shaped-1892438260
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Engineer's Blueprint with name ct_shaped388769735
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Engineer's Blueprint with name ct_shaped2110570358
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Scaffolding Stairs with name ct_shaped-1233339015
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Steel Scaffolding Stairs with name ct_shapeless1704504840
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Aluminium Scaffolding Stairs with name ct_shaped-409124558
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Aluminium Scaffolding Stairs with name ct_shapeless941078030
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Acacia Trapdoor with name ct_shaped-885003356
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Birch Trapdoor with name ct_shaped-2065394066
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dark Oak Trapdoor with name ct_shaped43975426
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Jungle Trapdoor with name ct_shaped-908028031
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spruce Trapdoor with name ct_shaped1264587134
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Black Balloon with name ct_shaped504595799
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Black Balloon with name ct_shaped1592193296
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sponge with name ct_shaped514620619
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sponge with name ct_shaped-1018459736
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bucket with name ct_shaped669812876
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bucket with name ct_shaped24870067
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bucket with name ct_shaped1352648880
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Monster Spawner with name ct_shaped-1786624963
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Sand with name ct_shapeless343421355
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Red Sand with name ct_shapeless1683992921
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Name Tag with name ct_shaped2084430725
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elytra with name ct_shaped625004537
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Orange Dye with name ct_shapeless-420327806
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Wood Planks with name ct_shapeless-1722591459
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stick with name ct_shapeless1603635905
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stick with name ct_shapeless-1168839963
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Seeds with name ct_shapeless1874398811
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Cobblestone with name ct_shapeless1983411708
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Trapdoor with name ct_shaped-1402087607
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Star Crux with name ct_shaped-11697388
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dragon Egg Crux with name ct_shaped-233526559
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Awakened Draconium Crux with name ct_shaped113484743
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Scaffolding with name ct_shaped-596731192
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped-510149107
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped925968393
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped1223508938
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped-1553185292
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped-1104526222
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped339192459
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped-919011218
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped301457648
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped356352173
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped1537620812
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped95171375
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped1127431752
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped1906951916
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped2037492657
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Elevator with name ct_shaped-51462605
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Fresh Water with name ct_shapeless514787195
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for PetRock Order Form with name ct_shaped-252014004
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gem Leggings with name ct_shapeless-2090792985
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Alchemical Chest with name ct_shaped-774835843
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Philosopher's Stone with name ct_shaped-100105648
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Watch of Flowing Time with name ct_shaped2140351860
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Knowledge Sharing Book with name ct_shaped-1726016033
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Glowing Mushroom with name ct_shapeless1447794220
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Magic Bean with name ct_shapeless1413011100
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bean Pod with name ct_shapeless-1639179877
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bean Pod with name ct_shapeless629995537
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-343532454
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-1436915147
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped869610310
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-2080821449
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-431145119
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped1891988904
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped930827605
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped1667371302
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped277538975
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped1408448514
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-139360458
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped-1418303511
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Celestial Notes with name ct_shaped1069969216
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Compressed Flesh Block with name ct_shaped-1169500730
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Coal Coke with name ct_shapeless-169368223
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Block of Coal Coke with name ct_shaped2126866997
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Gear with name ct_shaped-767187040
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Gear with name ct_shaped321565558
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gold Gear with name ct_shaped-1048251785
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Gear with name ct_shaped-154971848
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Emerald Gear with name ct_shaped1601545145
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Gear with name ct_shaped2127795531
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tin Gear with name ct_shaped1739680460
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Silver Gear with name ct_shaped-674553523
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lead Gear with name ct_shaped-2019826738
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Aluminum Gear with name ct_shaped-1967312668
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nickel Gear with name ct_shaped746384741
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Platinum Gear with name ct_shaped851237606
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iridium Gear with name ct_shaped1095971687
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Mana Infused Gear with name ct_shaped1806223080
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Gear with name ct_shaped971235882
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Electrum Gear with name ct_shaped-1958565845
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Invar Gear with name ct_shaped-628450047
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bronze Gear with name ct_shaped1248166850
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Constantan Gear with name ct_shaped2070653635
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Signalum Gear with name ct_shaped-1128984252
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lumium Gear with name ct_shaped2037903813
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Enderium Gear with name ct_shaped-214380730
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Ingot with name ct_shaped-744442387
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Ingot with name ct_shaped637488589
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Diamond Nugget with name ct_shapeless-746669200
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Gold with name ct_shapeless-316036002
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Copper with name ct_shapeless-535283922
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Tin with name ct_shapeless2003020387
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Nickel with name ct_shapeless1827520248
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Platinum with name ct_shapeless-2071403040
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pulverized Iridium with name ct_shapeless-1903043494
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gold Plate with name ct_shaped347397050
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Plate with name ct_shaped-242727722
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Silver Plate with name ct_shaped1675937764
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lead Plate with name ct_shaped1810851670
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Aluminum Plate with name ct_shaped242901491
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Plate with name ct_shaped820994135
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Electrum Plate with name ct_shaped1941154932
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Constantan Plate with name ct_shaped1767110401
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Tin Plate with name ct_shapeless228452241
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tin Plate with name ct_shaped-2008065845
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Platinum Plate with name ct_shapeless-202696825
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Platinum Plate with name ct_shaped376176457
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iridium Plate with name ct_shapeless-390653581
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iridium Plate with name ct_shaped797661593
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mana Infused Plate with name ct_shapeless-510213140
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Mana Infused Plate with name ct_shaped-529603808
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Invar Plate with name ct_shapeless-1405607032
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Invar Plate with name ct_shaped-1153767504
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bronze Plate with name ct_shapeless-911427715
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bronze Plate with name ct_shaped729422263
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Signalum Plate with name ct_shapeless-289585451
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Signalum Plate with name ct_shaped-1502343149
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lumium Plate with name ct_shapeless-1875422441
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lumium Plate with name ct_shaped1007072407
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Enderium Plate with name ct_shapeless511328762
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Enderium Plate with name ct_shaped-641678308
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Green Slimy Dirt with name ct_shaped-342176602
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Blue Slimy Dirt with name ct_shaped1073674079
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Purple Slimy Dirt with name ct_shaped-446251522
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magma Slimy Dirt with name ct_shaped1293809821
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Item Rack with name ct_shaped-223932840
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bread Slice with name ct_shaped858851131
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name ct_shaped862370862
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name ct_shaped117110492
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name ct_shaped-1283908776
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cobblestone Generator with name ct_shaped35184734
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dragon Helmet with name ct_shaped1479346518
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dragon Chestplate with name ct_shaped-1037924211
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dragon Leggings with name ct_shaped298528398
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dragon Boots with name ct_shaped-1771766558
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soul Sand with name ct_shapeless-927620648
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soul Sand with name ct_shapeless-767005319
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Growth Crystal with name ct_shaped-1372108245
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Growth Crystal Tier 2 with name ct_shaped1367087174
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Growth Crystal Tier 3 with name ct_shaped1060728121
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Infinity Water Bucket with name ct_shaped-1548344176
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Shears with name ct_shaped-1422499666
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Spear with name ct_shaped-114126050
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Spear with name ct_shaped-1147503948
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Diamond Nugget with name ct_shapeless358565946
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <exnihilocreatio:item_ore_aluminium:3>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <exnihilocreatio:item_ore_aluminium:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <exnihilocreatio:item_ore_aluminium:3>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <exnihilocreatio:item_ore_aluminium:3>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <exnihilocreatio:item_ore_aluminium:1>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <exnihilocreatio:item_ore_aluminium:2>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:redstone>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:redstone_block>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <thaumcraft:void_seed>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Mekanism Crusher Recipe(s) for <appliedenergistics2:material:5>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Mekanism Crusher Recipe(s) for <minecraft:sand>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <thermalfoundation:material:68> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:dirt>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <minecraft:sand>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <exnihilocreatio:block_dust>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <exnihilocreatio:block_netherrack_crushed>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <exnihilocreatio:block_endstone_crushed>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Separator Recipe(s) for [<gas:deuterium>, <gas:tritium>]

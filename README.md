@@ -21,9 +21,9 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
 
 ### Easiest way to run and keep up to date
 *Note: you must set your username, password, and email before you can `push`- go to the "Git Configurations" heading for instructions*
-*Note: the cd command is assuming you are in the directory the `stoneblock` folder is in*
+*Note: the cd command is assuming you are in the directory the `world` folder is in*
 ```
-cd stoneblock
+cd world
 git pull
 ./start.bat
 ```

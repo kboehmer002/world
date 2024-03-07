@@ -29,6 +29,7 @@ git pull
 ```
 when you are finished...
 *Note: You might want to copy+paste the `world` folder into a `backups` folder so you have a copy you can revert to if the current file becomes corrupted*
+  * (from inside the initial folder) `cp ./Runserver/world ./Backups/THEFLDRYOUMADETOSAVEIT`
 ```
 stop
 git add world

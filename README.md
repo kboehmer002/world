@@ -36,6 +36,7 @@ git commit -am "you can add any msg you want this is just an example but def use
 git push
 ```
 * Note: if you want to save a change to `start.bat` as well then after `git add world` type the comand `git add start.bat`
+* Note: if you want to add a backup then do `cp ./Runserver/world ../` and `git add .\Backups`
 * Next time you go to start it repeat the process. This keeps the current running world up to date for whoever wants to host next.
 * Find the server at your `GLOBAL_IP:PORT_FORWARDED` 
   * eg. `201.131.137.100:2955`
@@ -71,5 +72,7 @@ git push
         * The "Protocol" will be something along the lines of a 'both' or 'all' option
         * It should fill in the reccomended "Fwd to Addr"
         * I wouldn't mess with scheduling- just put it as always and manually turn it off when you don't want it to forward
+
+* Make sure to share your public IP and port so users can access the server via `IP:PORT` eg. `198.162.0.1:25566`
 
 

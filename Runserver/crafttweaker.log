@@ -1,24 +1,24 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Spencer Gilbert
-Ivy_
-Genryu
-Ncc1702
+Jordan Pineo
+Hooley
+DreamThorn
 AdaraChristine
 NickT
-Zuniroa
-Peregrinus11
-BrÃƒÂ¸nsted
 Belathus
-Quaternary
-Jordan Pineo
-DreamThorn
-NerdyWhiteGuy
-Hooley
-KoTeÅ­Ka
-Phillip Swearingain
-Jessie Sims
-Pongo Sapiens
+Ncc1702
 Jonathan McManus
+Genryu
+Jessie Sims
+Phillip Swearingain
+NerdyWhiteGuy
+KoTeÅ­Ka
+Ivy_
+Peregrinus11
+Quaternary
+Spencer Gilbert
+BrÃƒÂ¸nsted
+Pongo Sapiens
+Zuniroa
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
@@ -67,7 +67,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TinyProgressions.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tooltip.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Translocators.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 2ms
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 00_oreDict.zs} as we are currently loading with a different loader
@@ -116,7 +116,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TinyProgressions.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tooltip.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Translocators.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 163ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 988ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -459,7 +459,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Translocators.zs}
 [INITIALIZATION][SERVER][INFO] Initializing 'Translocators.zs'...
 [INITIALIZATION][SERVER][INFO] Initialized 'Translocators.zs'
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 350ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1004ms
 [POSTINITIALIZATION][SERVER][INFO] Removing Grinder Entry for Wheat
 [POSTINITIALIZATION][SERVER][INFO] Adding Grinder Entry for Wheat
 [POSTINITIALIZATION][SERVER][INFO] Adding Grinder Entry for Black Quartz Ore
@@ -716,3 +716,103 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <exnihilocreatio:block_netherrack_crushed>
 [POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <exnihilocreatio:block_endstone_crushed>
 [POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Separator Recipe(s) for [<gas:deuterium>, <gas:tritium>]
+[AVAILABLE][SERVER][INFO] Removing 0 Crusher Recipe(s) for Unknown item
+[AVAILABLE][SERVER][INFO] Removing 0 Crusher Recipe(s) for Unknown item
+[AVAILABLE][SERVER][INFO] Removing 0 Crusher Recipe(s) for Unknown item
+[AVAILABLE][SERVER][INFO] Removing 0 Crusher Recipe(s) for Unknown item
+[AVAILABLE][SERVER][INFO] Removing 0 Crusher Recipe(s) for Unknown item
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <minecraft:cobblestone>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <minecraft:gravel>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:cobblestone>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:gravel>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <minecraft:sand> and <exnihilocreatio:item_ore_aluminium:2>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:865> and <exnihilocreatio:item_ore_aluminium:1>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:866> and <exnihilocreatio:item_ore_aluminium:1>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <minecraft:sand> and <exnihilocreatio:item_ore_aluminium:1>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:netherrack>
+[AVAILABLE][SERVER][INFO] Altering Enchanter Recipe(s) for <minecraft:book> and <minecraft:arrow>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:cobblestone>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:gravel>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:dirt>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:sand>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:iron_horse_armor>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:iron_ingot>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:iron_ore>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <exnihilocreatio:item_ore_iron:1>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:golden_horse_armor>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:gold_ore>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:gold_ingot>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <exnihilocreatio:item_ore_gold:1>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:diamond_horse_armor>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:netherrack>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <minecraft:end_stone>
+[AVAILABLE][SERVER][INFO] Adding 1 MiningLens Recipe(s) for oreInferium
+[AVAILABLE][SERVER][INFO] Adding 1 MiningLens Recipe(s) for oreProsperity
+[AVAILABLE][SERVER][INFO] Adding 1 MiningLens Recipe(s) for oreCinnabar
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <appliedenergistics2:quartz_ore>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <appliedenergistics2:charged_quartz_ore>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <appliedenergistics2:material>
+[AVAILABLE][SERVER][INFO] Adding 1 Crusher Recipe(s) for <appliedenergistics2:material:7>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <appliedenergistics2:material:15>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <appliedenergistics2:material:14>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <appliedenergistics2:material:13>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <appliedenergistics2:material:19>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <appliedenergistics2:material:19>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <appliedenergistics2:material:2>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <appliedenergistics2:material:3>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <appliedenergistics2:material:8>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <appliedenergistics2:material:46>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot>
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_alloy_ingot>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <minecraft:gravel>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <minecraft:dirt>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <minecraft:sand>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <exnihilocreatio:block_dust>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <exnihilocreatio:block_netherrack_crushed>
+[AVAILABLE][SERVER][INFO] Altering Crusher Recipe(s) for <exnihilocreatio:block_endstone_crushed>
+[AVAILABLE][SERVER][INFO] Adding 1 Empowerer Recipe(s) for <projecte:item.pe_covalence_dust> * 40
+[AVAILABLE][SERVER][INFO] Adding 1 Empowerer Recipe(s) for <projecte:item.pe_covalence_dust:1> * 40
+[AVAILABLE][SERVER][INFO] Adding 1 Empowerer Recipe(s) for <projecte:item.pe_covalence_dust:2> * 40
+[AVAILABLE][SERVER][INFO] Adding 1 Empowerer Recipe(s) for <projecte:item.pe_repair_talisman>
+[AVAILABLE][SERVER][INFO] Adding infusion recipe for: 1xitem.curio@6
+[AVAILABLE][SERVER][INFO] Adding infusion recipe for: 1xitem.void_seed@0
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:gravel>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:dirt>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <minecraft:sand>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <exnihilocreatio:block_dust>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <mysticalagriculture:grains_of_infinity_essence>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <mysticalagriculture:grains_of_infinity_essence> * 2
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <mysticalagriculture:grains_of_infinity_essence> * 3
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:132> * 3
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:132> * 3
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:132> * 2
+[AVAILABLE][SERVER][INFO] Altering InductionSmelter Recipe(s) for <thermalfoundation:material:132>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <exnihilocreatio:block_netherrack_crushed>
+[AVAILABLE][SERVER][INFO] Altering Pulverizer Recipe(s) for <exnihilocreatio:block_endstone_crushed>
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:iron> * 648
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:iron> * 540
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:gold> * 648
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 648
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 5832
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 52488
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 472392
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 4251528
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:stone> * 38263752
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:dirt> * 648
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:dirt> * 5832
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:dirt> * 52488
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:dirt> * 472392
+[AVAILABLE][SERVER][INFO] Altering Melting Recipe(s) for <liquid:redstone> * 1296
+[AVAILABLE][SERVER][INFO] Altering Casting Recipe(s) for <minecraft:coal_block>
+[AVAILABLE][SERVER][INFO] Altering Casting Recipe(s) for <tconstruct:slime:1>
+[AVAILABLE][SERVER][INFO] Altering Casting Recipe(s) for <tconstruct:slime:2>
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool dragonEgg to table mightyenderchicken:ender_chicken
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool dragonHeart to table mightyenderchicken:ender_chicken
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool dragonScale to table mightyenderchicken:ender_chicken
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool dragonHeart to table mightyenderchicken:chaos_chicken
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool chaosShard to table mightyenderchicken:chaos_chicken
+[SERVER_STARTING][SERVER][INFO] Added new pool dragonEgg to table mightyenderchicken:ender_chicken
+[SERVER_STARTING][SERVER][INFO] Added new pool dragonHeart to table mightyenderchicken:ender_chicken
+[SERVER_STARTING][SERVER][INFO] Added new pool dragonScale to table mightyenderchicken:ender_chicken
+[SERVER_STARTING][SERVER][INFO] Added new pool dragonHeart to table mightyenderchicken:chaos_chicken
+[SERVER_STARTING][SERVER][INFO] Added new pool chaosShard to table mightyenderchicken:chaos_chicken

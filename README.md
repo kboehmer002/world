@@ -4,7 +4,7 @@ Contains all stoneblock files to be pushed and pulled to share stoneblock hostin
 
 ## File Management
 * Initial clone...
-  * When you are initally getting the repo: `git clone https://github.com/kboehmer002/stoneblock.git`
+  * When you are initally getting the repo: `git clone https://github.com/kboehmer002/world.git`
   * You only need to do this once... unless you delete the whole thing on your local computer
 * After you have cloned the repo...
   * Pull the current code from the repo: 'git pull'
@@ -42,6 +42,7 @@ git push
   * eg. `201.131.137.100:2955`
 
 # Git Configurations
+https://git-scm.com/downloads
 * Create a Github account and get permission from repo owner
 * set your user data by doing the following commands and changing the info in the quotes to your associated login information
 ```

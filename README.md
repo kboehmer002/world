@@ -27,7 +27,9 @@ cd world
 git pull
 ./start.bat
 ```
-when you are finished...
+***Note:** if you want to be able to run the program in the background (i.e. be able to close the terminal but keep open the GUI) then use the command `start -FilePath start.bat -WindowStyle Hidden` instead of `start.bat`*
+
+When you are finished...
 *Note: You might want to copy+paste the `world` folder into a `backups` folder so you have a copy you can revert to if the current file becomes corrupted*
   * (from inside the initial folder) `cp ./Runserver/world ./Backups/THEFLDRYOUMADETOSAVEIT`
 ```

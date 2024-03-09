@@ -595,6 +595,12 @@
     },
     "done": true
   },
+  "botania:main/terrasteel_pickup": {
+    "criteria": {
+      "terrasteel": "2024-03-09 09:14:11 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-02-24 00:41:29 -0500"

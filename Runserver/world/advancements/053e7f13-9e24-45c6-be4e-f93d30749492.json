@@ -390,6 +390,7 @@
     "criteria": {
       "chicken": "2024-02-26 21:23:58 -0500",
       "cooked_beef": "2024-03-03 01:16:43 -0500",
+      "beef": "2024-03-09 11:48:51 -0500",
       "apple": "2024-02-24 22:55:15 -0500",
       "cooked_chicken": "2024-02-28 16:18:22 -0500"
     },
@@ -916,6 +917,12 @@
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2024-02-24 22:10:39 -0500"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/alloy/2_energetic_alloy_get": {
+    "criteria": {
+      "inv_changed-enderio:item_energetic_alloy": "2024-03-09 14:36:02 -0500"
     },
     "done": true
   },

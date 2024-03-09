@@ -365,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-03-09 14:08:42 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2024-02-24 23:05:47 -0500"
@@ -918,6 +924,12 @@
   "minecraft:recipes/building_blocks/gray_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2024-02-26 18:00:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2024-03-09 14:08:42 -0500"
     },
     "done": true
   },
@@ -1853,6 +1865,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-02-24 22:27:28 -0500"
+    },
+    "done": true
+  },
+  "rftools:root": {
+    "criteria": {
+      "has_machine_frame": "2024-03-09 14:08:42 -0500"
     },
     "done": true
   },

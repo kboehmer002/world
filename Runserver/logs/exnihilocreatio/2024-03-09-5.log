@@ -1,0 +1,13 @@
+[21:56:34] [ERROR] Error parsing Ingredient String: Invalid Item: natura:overworld_leaves:-1
+[21:56:34] [ERROR] Compost JSON Entry for natura:overworld_leaves:-1 already exists, skipping.
+[21:56:34] [ERROR] Error parsing Ingredient String: Invalid Item: natura:overworld_leaves2:-1
+[21:56:34] [ERROR] Compost JSON Entry for natura:overworld_leaves2:-1 already exists, skipping.
+[21:56:34] [ERROR] Error parsing Ingredient String: Invalid Item: natura:redwood_leaves:0
+[21:56:34] [ERROR] Compost JSON Entry for natura:redwood_leaves:0 already exists, skipping.
+[21:56:34] [ERROR] Error parsing Ingredient String: Invalid Item: natura:nether_leaves:-1
+[21:56:34] [ERROR] Compost JSON Entry for natura:nether_leaves:-1 already exists, skipping.
+[21:56:34] [ERROR] Error parsing Ingredient String: Invalid Item: natura:nether_leaves2:-1
+[21:56:34] [ERROR] Compost JSON Entry for natura:nether_leaves2:-1 already exists, skipping.
+[21:56:34] [ERROR] Number error in json: randomthings:spectreleaf:*
+[21:56:34] [ERROR] Compost JSON Entry for randomthings:spectreleaf:* already exists, skipping.
+[21:56:41] [INFO] Enabled support for The One Probe

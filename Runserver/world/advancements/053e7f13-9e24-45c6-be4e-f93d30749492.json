@@ -173,6 +173,12 @@
     },
     "done": true
   },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "code_triggered": "2024-03-10 22:40:19 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-02-24 00:24:58 -0500"
@@ -752,6 +758,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2024-03-10 21:41:00 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2024-02-24 22:12:24 -0500"
@@ -911,7 +923,8 @@
       "zombie": "2024-03-01 22:52:08 -0500",
       "silverfish": "2024-03-03 00:28:37 -0500",
       "guardian": "2024-03-03 00:37:36 -0500",
-      "spider": "2024-03-01 22:53:09 -0500"
+      "spider": "2024-03-01 22:53:09 -0500",
+      "creeper": "2024-03-10 18:46:05 -0400"
     },
     "done": false
   },
@@ -1198,6 +1211,12 @@
     },
     "done": true
   },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2024-03-10 23:22:07 -0400"
+    },
+    "done": true
+  },
   "botania:main/flower_pickup": {
     "criteria": {
       "flower": "2024-03-06 20:47:13 -0500"
@@ -1255,6 +1274,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2024-02-27 20:11:15 -0500"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pool": "2024-03-10 22:25:48 -0400"
     },
     "done": true
   },
@@ -1339,6 +1364,12 @@
   "minecraft:recipes/building_blocks/light_blue_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2024-03-03 18:43:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2024-03-10 21:41:00 -0400"
     },
     "done": true
   },
@@ -1691,6 +1722,12 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_at_least_9_iron_nugget": "2024-02-26 18:00:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2024-03-10 21:41:00 -0400"
     },
     "done": true
   },
